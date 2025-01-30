@@ -39,8 +39,8 @@ interests:
 education:
   - area: PhD Molecular Medicine - Genetics
     institution: University of Santiago de Compostela
-    date_start: February 2021
-    date_end: June 2024
+    date_start: 2021-02-01
+    date_end: 2024-06-24
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
@@ -48,8 +48,8 @@ education:
       url: 'https://example.com'
   - area: MSc in Statistics
     institution: University of Santiago de Compostela
-    date_start: 2019
-    date_end: 2021
+    date_start: 2019-09-01
+    date_end: 2021-02-01
     summary: |
   
       Courses included:
@@ -57,8 +57,8 @@ education:
  
   - area: BSc Biology
     institution: University of Santiago de Compostela
-    date_start: 2015
-    date_end: 2019
+    date_start: 2015-09-01
+    date_end: 2019-07-01
     
 work:
   - position: Director of Cloud Infrastructure
