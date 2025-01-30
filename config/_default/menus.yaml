@@ -7,12 +7,15 @@ main:
   - name: Bio
     url: /
     weight: 10
+  - name: About me
+    url: aboutme/
+    weight: 11  
   - name: Experience
     url: /#CV
-    weight: 11
+    weight: 12
   - name: Education
     url: /#edu
-    weight: 12
+    weight: 13
   #- name: News
   #  url: /#news
    # weight: 13

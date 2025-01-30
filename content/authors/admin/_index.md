@@ -17,67 +17,49 @@ highlight_name: true
 # Role/position/tagline
 role: Biostatistician | PhD in Genetics
 
-# Organizations/Affiliations to display in Biography blox
-#organizations:
-#  - name: OpenAI
-#    url: https://openai.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:silviadiz03@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/silvia-diz/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
   - icon: academicons/orcid
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Biostatistics
+  - Electronic Health Records
+  - Clinical trials
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Molecular Medicine - Genetics
+    institution: University of Santiago de Compostela
+    date_start: February 2021
+    date_end: June 2024
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MSc in Statistics
+    institution: University of Santiago de Compostela
+    date_start: 2019
+    date_end: 2021
     summary: |
-      GPA: 3.8/4.0
-
+  
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Regression modelling (mixed models; parametric, semi and non-parametric), survival analysis, time series analysis, functional data analysis, multivariant analysis, EDA, spatial statistics, probability models).
+ 
+  - area: BSc Biology
+    institution: University of Santiago de Compostela
+    date_start: 2015
+    date_end: 2019
+    
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
