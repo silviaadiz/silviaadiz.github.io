@@ -1,3 +1,5 @@
 Hi!
 
-My name is Silvia. I am a biologist who once discovered how much she enjoyed programming and statistics and decided to turn that into her job. In 2020, while doing my MSc in statistics, I joined the Genomic Medicine research group as an intern, during which I mastered  Right after finishing the pandemics lockdown in Spain, I became a research technician for a national project awarded to the PI to study the genetic basis of COVID-19. 
+My name is Silvia. I am a biologist who once discovered how much she enjoyed programming and statistics and decided to turn that into her job. In 2020, while doing my MSc in statistics, I joined the Genomic Medicine research group as an intern, during which I developed R scripts for data wrangling and cleansing. Right after finishing the pandemics lockdown in Spain, I became a research technician for a national project awarded to the PI to study the genetic basis of COVID-19 (project SCOURGE). 
+
+After finishing my master's degree, in 2021, I decided to turn that research into a PhD.
