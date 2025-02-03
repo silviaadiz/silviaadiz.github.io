@@ -36,7 +36,6 @@ sections:
     id: aboutme
     content:
       title: About me
-      subtitle:
       text: <span style="font-size: 12px;"><div style="text-align: justify"> 
 My name is Silvia. I am a biologist who discovered a passion for programming and decided to turn it into a career. Back in 2020, while I was doing my MSc in Statistics, I joined the Genomic Medicine research group as an intern. During this time, I developed R scripts for data wrangling and cleaning. Shortly after the pandemic lockdown ended in Spain, I became a research technician for the largest national project studying the genetic basis of COVID-19 (the SCOURGE project), which was awarded to my principal investigator.
 
