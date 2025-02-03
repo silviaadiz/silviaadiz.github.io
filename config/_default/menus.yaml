@@ -10,7 +10,7 @@ main:
 
 
   - name: About me
-    url: "/about/
+    url: "/about/"
     weight: 6  
 
 
