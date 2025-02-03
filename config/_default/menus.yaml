@@ -8,25 +8,25 @@ main:
     url: /
     weight: 5
 
-[[main]]
+main:
   - name: About me
     url: "#aboutme"
     weight: 6  
 
-[[main]]
+main:
   - name: CV
     url: "#cv"
-    weight: 12
+    weight: 20
 
-[[main]]
+main:
   - name: Publications
     url: "#publications"
-    weight: 13
+    weight: 30
 
-[[main]]
+main:
 
   - name: Projects
     url: "#projects"
-    weight: 20
+    weight: 50
 
 
