@@ -8,6 +8,8 @@ appearance:
   mode: light
   color: sky
 
+font: minimal
+
 # SEO
 marketing:
   seo:
@@ -59,15 +61,7 @@ features:
   privacy_pack:
     enable: false
 
-assets:
-  custom_css:
-    - /custom.scss
 
-favicon: "/static/uploads/D.png"
+custom_css:
+  - assets/custom.scss
 
-
-
-font:
-    heading: "Sans-serif"  
-    body: "Sans-serif"        
-    nav: "Sans-serif"         
