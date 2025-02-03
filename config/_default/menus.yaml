@@ -6,23 +6,27 @@
 main:
   - name: Home
     url: /
-    weight: 10
+    weight: 5
+
+[[main]]
   - name: About me
-    url: aboutme/
-    weight: 11  
-  - name: Experience
-    url: /#CV
+    url: "#aboutme"
+    weight: 6  
+
+[[main]]
+  - name: CV
+    url: "#cv"
     weight: 12
-  - name: Education
-    url: /#edu
+
+[[main]]
+  - name: Publications
+    url: "#publications"
     weight: 13
-  #- name: News
-  #  url: /#news
-   # weight: 13
-  - name: Full CV
-    url: cv/
-    weight: 20
+
+[[main]]
+
   - name: Projects
-    url: projects/
-    weight: 30
+    url: "#projects"
+    weight: 20
+
 
