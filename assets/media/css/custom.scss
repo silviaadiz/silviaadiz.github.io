@@ -1,31 +1,19 @@
+/* Increase font size for the entire site */
+body {
+  font-size: 18px; /* Adjust this value as needed */
+}
 
-  .site-title {
-    margin-left: 50px;  /* Adjust as needed */
-    font-size: 2.5rem;  /* Increase font size */
-  }
-  .hero-title {
-    font-size: 3rem; /* Make the name bigger */
-    font-weight: bold;
-  }
-  
-  /* Increase section padding */
-  .section {
-    padding: 6rem 0 !important; /* Adjust the padding as needed */
-  }
-  
-  /* Increase container width */
-  .container {
-    max-width: 1200px !important; /* Adjust the width as needed */
-  }
-  
-  .author-links a {
-    font-size: 1.8rem; /* Increase icon size */
-    margin-right: 10px; /* Space them out */
-  }
+/* Center the title in the header */
+.article-title {
+  text-align: center;
+  font-size: 2.5rem; /* Adjust this value as needed */
+  margin-top: 1rem; /* Adjust spacing as needed */
+}
 
-  /* Increase size of profile avatar */
-  .avatar {
-    width: 500px; /* Increase size */
-    height: 500px;
-    border-radius: 50%; /* Keep circular shape */
-  }
+/* Center the title on the homepage (if applicable) */
+.hero-title {
+  text-align: center;
+  font-size: 3rem; /* Adjust this value as needed */
+  margin-top: 2rem; /* Adjust spacing as needed */
+}
+Explana
