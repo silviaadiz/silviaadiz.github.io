@@ -31,20 +31,22 @@ sections:
           color: #808080;
         }
 
-
-- block: aboutme
+- block: custom-aboutme
     content:
-      url: /aboutme/
+      title: "About Me"
+      button:
+        text: "Go to About Me"
+        url: /aboutme/
     design:
       css_class: light
       background:
         color: white
       css_style: |
-        .aboutme-widget {
+        .custom-aboutme {
           padding: 2rem;
           text-align: center;
         }
-        .aboutme-widget a {
+        .custom-aboutme a {
           color: #007bff;
         }
         

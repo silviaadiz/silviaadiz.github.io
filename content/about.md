@@ -1,6 +1,6 @@
 ---
 title: "About me"
-widget: about
+widget: "custom"
 headless: true
 active: true
 ---

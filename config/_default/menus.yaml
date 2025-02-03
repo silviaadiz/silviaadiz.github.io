@@ -10,7 +10,7 @@ main:
 
 
   - name: About me
-    url: "/aboutme/"
+    url: "#about"
     weight: 6  
 
 
@@ -26,7 +26,7 @@ main:
 
 
   - name: Projects
-    url: "/projects"
+    url: "projects/"
     weight: 50
 
 
