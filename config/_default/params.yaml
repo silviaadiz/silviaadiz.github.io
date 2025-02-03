@@ -63,4 +63,4 @@ assets:
   custom_css:
     - /custom.scss
 
-favicon: "/assets/media/icons/favicon.png"
+favicon: "/static/uploads/favicon.png"
