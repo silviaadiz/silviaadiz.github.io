@@ -61,7 +61,7 @@ features:
   privacy_pack:
     enable: false
 
-
-custom_css:
-  - /custom.scss
+assets:
+  custom_css:
+    - css/custom.scss
 
