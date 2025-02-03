@@ -63,4 +63,11 @@ assets:
   custom_css:
     - /custom.scss
 
-favicon: "/static/uploads/favicon.png"
+favicon: "/static/uploads/D.png"
+
+
+
+font:
+    heading: "Sans-serif"  
+    body: "Sans-serif"        
+    nav: "Sans-serif"         
