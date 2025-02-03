@@ -11,7 +11,7 @@ main:
 
   - name: About me
     url: "/#aboutme"
-    weight: 6  
+    weight: 10  
 
 
   - name: CV
