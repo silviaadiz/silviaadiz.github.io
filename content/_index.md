@@ -30,5 +30,22 @@ sections:
         a {
           color: #808080;
         }
-  
+
+
+- block: aboutme
+    content:
+      url: /aboutme/
+    design:
+      css_class: light
+      background:
+        color: white
+      css_style: |
+        .aboutme-widget {
+          padding: 2rem;
+          text-align: center;
+        }
+        .aboutme-widget a {
+          color: #007bff;
+        }
+        
 ---
