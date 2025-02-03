@@ -32,21 +32,3 @@ sections:
         }
   
 
-  # Bloque nuevo para About Me
-  - block: page
-    content:
-      page: About Me
-    design:
-      css_class: light
-      background:
-        color: white
-      css_style: |
-        h2 {
-          font-size: 2rem;
-          color: #333333;
-        }
-        p {
-          font-size: 1.2rem;
-          color: #666666;
-        }
----
