@@ -8,22 +8,22 @@ main:
     url: /
     weight: 5
 
-main:
+
   - name: About me
     url: "content/aboutme"
     weight: 6  
 
-main:
+
   - name: CV
     url: "content/cv"
     weight: 20
 
-main:
+
   - name: Publications
     url: "content/projects"
     weight: 30
 
-main:
+
 
   - name: Projects
     url: "content/projects"
