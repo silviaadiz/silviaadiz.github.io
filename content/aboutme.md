@@ -1,7 +1,3 @@
----
-title: "About Me"
-type: page
----
 
 ## Hi!
 
