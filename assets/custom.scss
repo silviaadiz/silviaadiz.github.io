@@ -1,15 +1,11 @@
-.fa, .fas, .far, .fab {
-    font-size: 4rem !important; /* Adjust the size as needed */
+
+  .site-title {
+    margin-left: 50px;  /* Adjust as needed */
+    font-size: 2.5rem;  /* Increase font size */
   }
-  
-  /* Increase title size */
   .hero-title {
-    font-size: 3.5rem !important; /* Adjust the size as needed */
-  }
-  
-  /* Increase subtitle size */
-  .hero-subtitle {
-    font-size: 1.75rem !important; /* Adjust the size as needed */
+    font-size: 3rem; /* Make the name bigger */
+    font-weight: bold;
   }
   
   /* Increase section padding */
@@ -22,13 +18,14 @@
     max-width: 1200px !important; /* Adjust the width as needed */
   }
   
-  /* Increase font size for general text */
-  body {
-    font-size: 2rem !important; /* Adjust the size as needed */
+  .author-links a {
+    font-size: 1.8rem; /* Increase icon size */
+    margin-right: 10px; /* Space them out */
   }
-  
+
   /* Increase size of profile avatar */
   .avatar {
-    width: 400px !important; /* Adjust the size as needed */
-    height: 400px !important; /* Adjust the size as needed */
+    width: 180px; /* Adjust size */
+    height: 180px;
+    border-radius: 50%; /* Keeps it circular */
   }
