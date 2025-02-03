@@ -10,23 +10,23 @@ main:
 
 main:
   - name: About me
-    url: "#aboutme"
+    url: "content/aboutme"
     weight: 6  
 
 main:
   - name: CV
-    url: "#cv"
+    url: "content/cv"
     weight: 20
 
 main:
   - name: Publications
-    url: "#publications"
+    url: "content/projects"
     weight: 30
 
 main:
 
   - name: Projects
-    url: "#projects"
+    url: "content/projects"
     weight: 50
 
 
