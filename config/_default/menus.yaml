@@ -15,7 +15,7 @@ main:
 
 
   - name: CV
-    url: "cv/"
+    url: "resume/"
     weight: 20
 
 
