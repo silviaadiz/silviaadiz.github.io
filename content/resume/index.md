@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 date: "2025-02-04"
-layout: "Landing"
+layout: "pages"
 ---
 
 
