@@ -31,7 +31,19 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/
 
+education:
+  - area: PhD Molecular Medicine
+    institution: University of Santiago de Compostela
+    date_start: 2021-03-01
+    date_end: 2024-06-24
+  - area: MSc Statistical Techniques
+    institution: University of Santiago de Compostela
+    date_start: 2019-09-01
+    date_end: 2021-02-01
+  - area: BSc Biology
+    institution: University of Santiago de Compostela
+    date_start: 2015-09-01
+    date_end: 2019-06-31
 
 ---
 
-Biostatistician with a PhD in Molecular Medicine, especializing in human genetics and biostatistics. 
