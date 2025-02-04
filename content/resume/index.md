@@ -27,7 +27,7 @@ sections:
     design:
       columns: '2'
 
-  - block: education
+  - block: experience
     content:
       title: Education
       date_format: Jan 2006
