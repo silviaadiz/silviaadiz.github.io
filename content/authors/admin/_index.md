@@ -43,7 +43,7 @@ education:
   - area: BSc Biology
     institution: University of Santiago de Compostela
     date_start: 2015-09-01
-    date_end: 2019-06-31
+    date_end: 2019-06-30
 
 ---
 
