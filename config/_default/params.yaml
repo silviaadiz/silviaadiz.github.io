@@ -65,6 +65,6 @@ features:
     enable: false
 
 assets:
-  custom_css:
+  css:
     - scss/custom.scss
 
