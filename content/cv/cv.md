@@ -1,9 +1,8 @@
 ---
 type: landing
 title: "Curriculum Vitae"
-summary: "Mi experiencia, educación y habilidades."
 date: "2025-02-04"
-layout: "page"
+layout: "landing"
 ---
 
 <style>
