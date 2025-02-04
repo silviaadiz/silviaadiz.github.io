@@ -1,76 +1,40 @@
-{{ $current_page := . }}
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
-  <div class="container">
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 
-    <!-- Brand (left-aligned) -->
-    <a class="navbar-brand" href="{{ "/" | relLangURL }}">
-      {{- if site.Params.logo -}}
-      <img src="{{ printf "/img/%s" site.Params.logo | relURL }}" alt="{{ site.Title }}">
-      {{- else -}}
-      <span class="site-title">{{ site.Title }}</span>
-      {{- end -}}
-    </a>
+/* Navbar Styling */
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
 
-    <!-- Navbar toggler for mobile -->
-    {{ if or site.Menus.main .IsTranslated }}
-    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
-            data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="{{ i18n "toggle_navigation" }}">
-      <span><i class="fas fa-bars"></i></span>
-    </button>
-    {{ end }}
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center; /* Ensure title is centered */
+}
 
-    <!-- Navbar Links (right-aligned) -->
-    <div class="collapse navbar-collapse" id="navbar">
-      <ul class="navbar-nav ms-auto">
-        {{ range site.Menus.main }}
-        <li class="nav-item">
-          <a class="nav-link {{ if eq .URL $current_page.RelPermalink }} active{{ end }}" href="{{ .URL | relLangURL }}">
-            <span>{{ .Name | safeHTML }}</span>
-          </a>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
+.nav-link {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 15px;
+  color: black;
+  transition: color 0.3s ease;
+}
 
-  </div>
-</nav>
+.nav-link:hover,
+.nav-link.active {
+  color: #0073e6;
+}
 
-<style>
-  /* Import Inter font */
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
-
-  /* Navbar Styling */
-  .navbar {
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 10px 0;
+/* Responsive: Center items on smaller screens */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
   }
-
-  .navbar-brand {
-    font-size: 18px;
-    font-weight: 600;
-  }
-
-  .nav-link {
-    font-size: 16px;
-    font-weight: 400;
-    padding: 10px 15px;
-    color: black;
-    transition: color 0.3s ease;
-  }
-
-  .nav-link:hover,
-  .nav-link.active {
-    color: #0073e6;
-  }
-
-  /* Responsive: Center items on smaller screens */
-  @media (max-width: 768px) {
-    .navbar-nav {
-      text-align: center;
-    }
-  }
-</style>
+}

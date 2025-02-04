@@ -2,8 +2,8 @@
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
-    <!-- Brand (left-aligned) -->
-    <a class="navbar-brand" href="{{ "/" | relLangURL }}">
+    <!-- Brand (center-aligned) -->
+    <a class="navbar-brand mx-auto" href="{{ "/" | relLangURL }}">
       {{- if site.Params.logo -}}
       <img src="{{ printf "/img/%s" site.Params.logo | relURL }}" alt="{{ site.Title }}">
       {{- else -}}
@@ -34,43 +34,3 @@
 
   </div>
 </nav>
-
-<style>
-  /* Import Inter font */
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
-
-  /* Navbar Styling */
-  .navbar {
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 10px 0;
-  }
-
-  .navbar-brand {
-    font-size: 18px;
-    font-weight: 600;
-  }
-
-  .nav-link {
-    font-size: 16px;
-    font-weight: 400;
-    padding: 10px 15px;
-    color: black;
-    transition: color 0.3s ease;
-  }
-
-  .nav-link:hover,
-  .nav-link.active {
-    color: #0073e6;
-  }
-
-  /* Responsive: Center items on smaller screens */
-  @media (max-width: 768px) {
-    .navbar-nav {
-      text-align: center;
-    }
-  }
-</style>
