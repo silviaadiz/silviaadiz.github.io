@@ -4,36 +4,6 @@ date: "2025-02-04"
 layout: "Landing"
 ---
 
-<style>
-  body {
-    font-family: 'Arial', sans-serif;
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    line-height: 1.6;
-  }
-  h2 {
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
-  }
-  ul {
-    list-style-type: square;
-  }
-  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 20px;
-    text-align: center;
-    margin-top: 20px;
-  }
-  .skills-grid img {
-    width: 40px;
-    height: 40px;
-  }
-  .skills-grid p {
-    margin: 5px 0;
-  }
-</style>
 
 ## Education
 
