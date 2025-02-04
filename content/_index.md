@@ -14,7 +14,7 @@ sections:
       username: admin
       text: ""
       button:
-        text: Download CV
+        text: Read my CV!
         url: "uploads/resume.pdf"
     design:
       css_class: light

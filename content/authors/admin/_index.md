@@ -15,7 +15,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Biostatistician | PhD in Genetics
+role: Biostatistician | PhD 
 
 
 # Social network links
@@ -32,15 +32,15 @@ profiles:
     url: https://orcid.org/
 
 education:
-  - area: PhD Molecular Medicine
+  - area: PhD in Molecular Medicine (Statistical genetics)
     institution: University of Santiago de Compostela
     date_start: 2021-03-01
     date_end: 2024-06-24
-  - area: MSc Statistical Techniques
+  - area: MSc in Statistical Techniques
     institution: University of Santiago de Compostela
     date_start: 2019-09-01
     date_end: 2021-02-01
-  - area: BSc Biology
+  - area: BSc in Biology
     institution: University of Santiago de Compostela
     date_start: 2015-09-01
     date_end: 2019-06-30
