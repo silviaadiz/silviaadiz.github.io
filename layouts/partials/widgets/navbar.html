@@ -1,80 +1,76 @@
-<nav class="navbar">
-    <div class="container">
-      <a href="/" class="logo">Your Name</a>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#cv">CV</a></li>
-        <li><a href="#contact">Contact</a></li>
+{{ $current_page := . }}
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    <!-- Brand (left-aligned) -->
+    <a class="navbar-brand" href="{{ "/" | relLangURL }}">
+      {{- if site.Params.logo -}}
+      <img src="{{ printf "/img/%s" site.Params.logo | relURL }}" alt="{{ site.Title }}">
+      {{- else -}}
+      <span class="site-title">{{ site.Title }}</span>
+      {{- end -}}
+    </a>
+
+    <!-- Navbar toggler for mobile -->
+    {{ if or site.Menus.main .IsTranslated }}
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+            data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="{{ i18n "toggle_navigation" }}">
+      <span><i class="fas fa-bars"></i></span>
+    </button>
+    {{ end }}
+
+    <!-- Navbar Links (right-aligned) -->
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav ms-auto">
+        {{ range site.Menus.main }}
+        <li class="nav-item">
+          <a class="nav-link {{ if eq .URL $current_page.RelPermalink }} active{{ end }}" href="{{ .URL | relLangURL }}">
+            <span>{{ .Name | safeHTML }}</span>
+          </a>
+        </li>
+        {{ end }}
       </ul>
     </div>
-  </nav>
-  
-  <style>
-    /* Import Inter font */
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
-  
-    /* Basic Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+
+  </div>
+</nav>
+
+<style>
+  /* Import Inter font */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+  /* Navbar Styling */
+  .navbar {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0;
+  }
+
+  .navbar-brand {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 15px;
+    color: black;
+    transition: color 0.3s ease;
+  }
+
+  .nav-link:hover,
+  .nav-link.active {
+    color: #0073e6;
+  }
+
+  /* Responsive: Center items on smaller screens */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
     }
-  
-    /* Navbar Styling */
-    .navbar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background: white;
-      padding: 12px 20px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      font-family: 'Inter', sans-serif;
-      z-index: 1000;
-    }
-  
-    .container {
-      max-width: 1000px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    .logo {
-      font-size: 18px;
-      font-weight: 600;
-      text-decoration: none;
-      color: black;
-    }
-  
-    .nav-links {
-      list-style: none;
-      display: flex;
-      gap: 20px;
-    }
-  
-    .nav-links li {
-      display: inline-block;
-    }
-  
-    .nav-links a {
-      text-decoration: none;
-      font-size: 16px;
-      color: black;
-      font-weight: 400;
-      transition: color 0.3s ease;
-    }
-  
-    .nav-links a:hover {
-      color: #0073e6;
-    }
-  
-    /* Responsive for smaller screens */
-    @media (max-width: 768px) {
-      .nav-links {
-        display: none;
-      }
-    }
-  </style>
+  }
+</style>
