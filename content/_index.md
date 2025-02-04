@@ -36,8 +36,8 @@ sections:
     weight: 6  # ✅ Moved `weight` to the correct position
     content:
       title: "About Me"
-      text: |
-<div style="text-align: justify; font-size: 15px;">
+      text: 
+      <div style="text-align: justify; font-size: 15px;">
 I am a biologist who discovered a passion for programming and decided to turn it into a career. Back in 2020, while I was doing my MSc in Statistics, I joined the Genomic Medicine research group as an intern. Shortly after the pandemic lockdown ended in Spain, I became a research technician for the largest national project studying the genetic basis of COVID-19 (the SCOURGE project), which was awarded to my principal investigator.
 
 In 2021, after completing my master’s, I decided to turn my research into a PhD, which I defended in June 2024 with a _Cum Laude_ distinction. During that time I led studies for the SCOURGE consortium, focusing on identifying genetic determinants of COVID-19. This involved collaborating with over 30 research centers across Spain and Latin America, comprising over 15,000 patients. Boucing between biostatistics and bioinformatics (with a stronger focus on biostatistics), I spent a lot of time working with large-scale genetic and clinical data and writing tons of R code. My supervisors gave me a lot of freedom to design and run analyses, which meant I got to explore, experiment, make mistakes and learn at my own pace.  Half of my research focused on discovering genetic variants and genes linked to COVID-19 severity, while the other half evaluated polygenic risk scores as biomarkers for complex diseases, exploring how these _tools_ performed in diverse populations and their potential utility in clinical settings compared to non-genetic factors.
@@ -58,5 +58,5 @@ Now, since this is an _about me_ section and not my CV, here are a few personal 
 
 Thanks for reading! Feel free to reach out if you’d like to connect :)
 
-</div>
+      </div>
 ---
