@@ -1,11 +1,62 @@
 ---
-title: "Curriculum Vitae"
-date: "2025-02-04"
-type: "markdown"
+title: My page
+type: landing
+
+sections:
+  - block: experience
+    content:
+      title: Experience
+      # Date format for experience
+      #   Refer to https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many experience `items` below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Research technician
+          company: Center for Research in Molecular Medicine and Chronic Diseases (University of Santiago de Compostela)
+          location: Santiago de Compostela
+          date_start: '2020-07-01'
+          date_end: ''
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
+        - title: PhD student
+          company: University of Santiago de Compostela
+          date_start: '2021-01-03'
+          date_end: '2024-06-24'
+          description: Taught electronic engineering and researched semiconductor physics.
+    design:
+      columns: '2'
+
+- block: education
+    content:
+      title: Education
+      date_format: Jan 2006
+      items:
+        - title: PhD in Molecular Medicine
+          date_start: '2024-06-24'
+          date_end: ''
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
+        - title: PhD student
+          company: University of Santiago de Compostela
+          date_start: '2021-01-03'
+          date_end: '2024-06-24'
+          description: Taught electronic engineering and researched semiconductor physics.
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '2'
 ---
-
-
-## Education
 
 **[University of Santiago de Compostela]**  
 *BSc in Biology* (2015 - 2019)  
@@ -17,62 +68,3 @@ type: "markdown"
 
 **[University of Santiago de Compostela]**  
 *PhD in Molecular Medicine* (2021 - 2024)  
-
-## Experience
-
-**[Research technician]**, [Center for Research in Molecular Medicine and Chronic Diseases] *(2020 - 2024)*  
-- Desarrollé modelos estadísticos avanzados.
-- Implementé técnicas de Machine Learning para análisis predictivo.
-- Coordiné un equipo de investigación interdisciplinario.
-
-**[PhD student]**, [Center for Research in Molecular Medicine and Chronic Diseases] *(2021 - 2024)*  
-- Desarrollé modelos estadísticos avanzados.
-- Implementé técnicas de Machine Learning para análisis predictivo.
-- Coordiné un equipo de investigación interdisciplinario.
-
-**[Intern]**, [Center for Research in Molecular Medicine and Chronic Diseases] *(2020 - 2020)*  
-- Desarrollé modelos estadísticos avanzados.
-- Implementé técnicas de Machine Learning para análisis predictivo.
-- Coordiné un equipo de investigación interdisciplinario.
-
-## Skills
-
-<div class="skills-grid">
-  <div>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg" alt="R">
-    <p><strong>R</strong></p>
-    <p>Intermediate</p>
-  </div>
-  <div>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux">
-    <p><strong>Linux</strong></p>
-    <p>Intermediate</p>
-  </div>
-  <div>
-    <img src="https://raw.githubusercontent.com/rstudio/hex-stickers/master/PNG/rmarkdown.png" alt="RMarkdown">
-    <p><strong>RMarkdown</strong></p>
-    <p>Beginner</p>
-  </div>
-  <div>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python">
-    <p><strong>Python</strong></p>
-    <p>Advanced</p>
-  </div>
-</div>
-
-## Other Courses
-
-- **Curso 1** - [Institución] (Año)
-- **Curso 2** - [Institución] (Año)
-
-## Seminars
-
-- *"Título de la charla"* - Evento (Año)
-- *"Título de otra charla"* - Evento (Año)
-
-## Languages
-
-- **Spanish** (Native)
-- **English** (Avanzado - C2)
-- **Galician** (Native)
-
