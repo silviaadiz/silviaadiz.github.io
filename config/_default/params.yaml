@@ -66,5 +66,5 @@ features:
 
 assets:
   custom_css:
-    - css/custom.scss
+    - scss/custom.scss
 
