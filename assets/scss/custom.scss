@@ -9,14 +9,12 @@
   font-size: 16px;
   font-weight: 400;
   padding: 10px 0;
-  display: flex;
-  justify-content: center;
 }
 
 .navbar-brand {
   font-size: 18px;
   font-weight: 600;
-  text-align: center; /* Ensure title is centered */
+  text-align: center; /* Center title if no logo is used */
 }
 
 .nav-link {
