@@ -21,7 +21,7 @@ Now, since this is an _about me_ section and not my CV, here are a few personal 
 
 3. I practice Iyengar Yoga.
 
-4. I’m the person my friends ask for household management advice.
+4. I’m the person my friends go to for household management advice.
 
 5. I enjoy keeping up with fashion and tech drama.
 
