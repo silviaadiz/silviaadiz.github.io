@@ -16,9 +16,9 @@ reading_time: false
   /* Timeline Styling */
   .timeline {
     position: relative;
-    max-width: 900px;
+    max-width: 1200px; /* Increased from 900px to 1200px */
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 70px 0;
   }
 
   .timeline::after {
@@ -44,10 +44,12 @@ reading_time: false
 
   .timeline-item.left {
     left: 0;
+    margin-top: -100px;
   }
 
   .timeline-item.right {
     left: 50%;
+    margin-top: -120px; /* Pull up right-side items to start earlier */
   }
 
   .timeline-item::after {
@@ -184,40 +186,37 @@ reading_time: false
     color: #4a4e69;
   }
 </style>
-
 <!-- Work Experience Timeline -->
 <h2>Work Experience</h2>
 <div class="timeline">
   <div class="timeline-item left">
     <div class="date">July 2020 - June 2024</div>
     <div class="title">Research Technician</div>
-    <div class="summary">Responsibilities include:</div>
+    <div class="summary">Genomic Medicine Lab - Genomics & Bioinformatics</div>
     <ul class="responsibilities">
-      <li>blabla</li>
-      <li>blabla</li>
-      <li>blabla</li>
+      <li>Supported the biostatistics and statistical genetics unit.</li>
+      <li>Designed and performed analyses for different research projects.</li>
+      <li>Implemented and automated R analysis pipelines. </li>
+      <li>Mentored PhD students, interns and high school students in R programming and statistics.</li>
+      <li>Participated in the elaboration of reports and manuscripts.</li>
     </ul>
   </div>
 
   <div class="timeline-item right">
     <div class="date">March 2021 - June 2024</div>
     <div class="title">PhD Student</div>
-    <div class="summary">Responsibilities include:</div>
+    <div class="summary">Genomic Medicine Lab - Genomics & Bioinformatics</div>
     <ul class="responsibilities">
-      <li>blabla</li>
-      <li>blabla</li>
-      <li>blabla</li>
-    </ul>
+      <li>Led the main analyses for the SCOURGE consortium in COVID-19 host genetics.</li>
   </div>
+    </ul>
 
   <div class="timeline-item left">
     <div class="date">March 2020 - July 2020</div>
     <div class="title">Intern</div>
-    <div class="summary">Responsibilities include:</div>
     <ul class="responsibilities">
-      <li>Supporting blabla</li>
-      <li>Assisting in statistical data analysis and report writing</li>
-      <li>Learning and applying research methodologies</li>
+      <li>Assisted in statistical data analysis and data cleansing.</li>
+      <li>Learnt and applied research methodologies</li>
     </ul>
   </div>
 </div>
@@ -234,7 +233,7 @@ reading_time: false
   <div class="timeline-item right">
     <div class="date">2019 - 2021</div>
     <div class="title">MSc in Statistical Techniques</div>
-    <div class="summary">Relevant courses: probability models, mixed models, parametric and non-parametric regression modelling, survival analysis, multivariate analysis, spatial analysis, exploratory data analysis, time series.</div>
+    <li>Relevant courses: Probability models, mixed models, parametric and non-parametric regression modelling, survival analysis, multivariate analysis, spatial analysis, exploratory data analysis, time series.</li>
   </div>
 
   <div class="timeline-item left">
@@ -291,7 +290,7 @@ reading_time: false
 <div class="courses-certifications-section">
   <div class="course-certification">
     <div class="course-certification-name">A crash course in causality</div>
-    <div class="course-certification-details">Coursera, 2024</div>
+    <div class="course-certification-details">University of Pensylvannia - Coursera, 2024</div>
   </div>
   <div class="course-certification">
     <div class="course-certification-name">Hands on Clinical Reporting with R</div>
