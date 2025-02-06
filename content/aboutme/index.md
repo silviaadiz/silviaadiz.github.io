@@ -1,8 +1,7 @@
 ---
-title: "About me"
-widget: "custom"
-headless: true
-active: true
+
+title: About me
+type: markdown
 ---
 
 

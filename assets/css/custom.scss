@@ -1,38 +1,4 @@
-/* Import Inter font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
-
-/* Navbar Styling */
-.navbar {
-  background-color: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  padding: 10px 0;
-}
-
-.navbar-brand {
-  font-size: 18px;
-  font-weight: 600;
-  text-align: center; /* Center title if no logo is used */
-}
-
-.nav-link {
-  font-size: 16px;
-  font-weight: 400;
-  padding: 10px 15px;
-  color: black;
-  transition: color 0.3s ease;
-}
-
-.nav-link:hover,
-.nav-link.active {
-  color: #0073e6;
-}
-
-/* Responsive: Center items on smaller screens */
-@media (max-width: 768px) {
-  .navbar-nav {
-    text-align: center;
-  }
+.resume-biography .avatar {
+    max-width: 300px !important;
+    max-height: 300px !important;
 }

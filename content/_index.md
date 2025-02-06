@@ -6,56 +6,85 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "6rem"
+  spacing: "1rem"
 
 sections:
-  - block: resume-biography-3
+  - block:  resume-biography
     content:
       username: admin
       text: ""
-      button:
-        text: Read my CV!
-        url: "uploads/resume.pdf"
     design:
-      css_class: light
       background:
         color: white
-      css_style: |
-        .avatar {
-          filter: grayscale(100%);
-        }
-        body {
-          color: #808080;
-        }
-        a {
-          color: #808080;
-        }
+      size: L
+      spacing:
+        padding: ["20px", "0", "10px", "0"]  # Reduced padding to reduce spacing
+
 
   - block: markdown
     id: aboutme
-    weight: 6  # ✅ Moved `weight` to the correct position
+    weight: 2
     content:
-      title: "About Me"
+      title: ""
       text: |
-        <div style="text-align: justify; font-size: 15px;">
-          I am a biologist who discovered a passion for programming and decided to turn it into a career. Back in 2020, while I was doing my MSc in Statistics, I joined the Genomic Medicine research group as an intern. Shortly after the pandemic lockdown ended in Spain, I became a research technician for the largest national project studying the genetic basis of COVID-19 (the SCOURGE project), which was awarded to my principal investigator.
-
-          In 2021, after completing my master’s, I decided to turn my research into a PhD, which I defended in June 2024 with a _Cum Laude_ distinction. During that time I led studies for the SCOURGE consortium, focusing on identifying genetic determinants of COVID-19. This involved collaborating with over 30 research centers across Spain and Latin America, comprising over 15,000 patients. Boucing between biostatistics and bioinformatics (with a stronger focus on biostatistics), I spent a lot of time working with large-scale genetic and clinical data and writing tons of R code. My supervisors gave me a lot of freedom to design and run analyses, which meant I got to explore, experiment, make mistakes and learn at my own pace.  Half of my research focused on discovering genetic variants and genes linked to COVID-19 severity, while the other half evaluated polygenic risk scores as biomarkers for complex diseases, exploring how these _tools_ performed in diverse populations and their potential utility in clinical settings compared to non-genetic factors.
-
-          Since I enjoy staying busy and our team was small, I took on additional projects. Some involved assisting with analyses, while others allowed me to lead the planning and execution. These experiences taught me how to work in interdisciplinary teams, write detailed reports for external researchers, and manage remote collaborations. After finishing my PhD, I took some time to ponder my next steps. While I loved research, I decided to move into the pharmaceutical industry—and I’m currently looking for my next opportunity!
-
-          Now, since this is an _about me_ section and not my CV, here are a few personal fun facts:
-
-          1. I read a lot. Some of my favorite books are The Maniac (Benjamin Labatut), White Teeth (Zadie Smith), and Cleaned Out (Annie Ernaux).
-
-          2. I have a very funny rescue dog named Cora who loves rolling in the dirt and requires daily baths.
-
-          3. I practice Iyengar Yoga.
-
-          4. I’m the person my friends go to for household management advice.
-
-          5. I enjoy keeping up with fashion and tech drama.
-
-          Thanks for reading! Feel free to reach out if you’d like to connect :)
+        <div style="text-align: center; font-size: 15px;">
+          <span style="font-family: 'Arial Black', sans-serif; font-size: 38px; color: #4A90E2;">Hi, I'm Silvia!</span>
+          <br><br>
+          Below are the most relevant, but you can know more about me <a href="aboutme/" style="color: #4A90E2; text-decoration: underline;">here</a>, and you can also give a look to my <a href="/content/cv.md" style="color: #4A90E2; text-decoration: underline;">CV</a>, <a href="/content/publications.md" style="color: #4A90E2; text-decoration: underline;">publications</a>, and <a href="/content/projects.md" style="color: #4A90E2; text-decoration: underline;">projects</a>.
         </div>
+
+  - block: markdown
+    content:
+      title: ""
+      text: |
+        <div style="text-align: center; margin-top: 10px;">  <!-- Reduced margin-top -->
+          <!-- Social Media Icons -->
+          <a href="https://twitter.com/yourusername" target="_blank" style="margin: 0 10px; font-size: 24px; color: #1DA1F2;"><i class="fab fa-twitter"></i></a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank" style="margin: 0 10px; font-size: 24px; color: #0077B5;"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/yourusername" target="_blank" style="margin: 0 10px; font-size: 24px; color: #333;"><i class="fab fa-github"></i></a>
+          <a href="https://instagram.com/yourusername" target="_blank" style="margin: 0 10px; font-size: 24px; color: #E1306C;"><i class="fab fa-instagram"></i></a>
+
+          <!-- Download CV Button -->
+          <br>  <!-- Line break to place the button below the icons -->
+          <a href="uploads/resume.pdf" download style="margin-top: 3px; font-size: 16px; padding: 10px 20px; background-color: #4A90E2; color: white; text-decoration: none; border-radius: 5px;">
+            Download My CV
+          </a>
+        </div>
+    design:
+      background:
+        color: white
+      spacing:
+        padding: ["0px", "0", "10px", "0"]  
+        
+        
+  - block: resume-experience
+    content:
+      username: admin
+    design:
+      date_format: 'January 2006'
+      is_education_first: false
+    style: |
+      <style>
+        /* Create two columns for Experience and Education */
+        .resume-experience {
+          display: flex;
+          gap: 20px;
+          justify-content: space-between;
+        }
+        .resume-experience > div {
+          width: 48%;
+        }
+
+        /* Hide icons for experience and education */
+        .resume-experience .icon {
+          display: none;
+        }
+
+
+      
+  - block: resume-skills
+    content:
+      title: ''
+      username: admin
+
 ---
