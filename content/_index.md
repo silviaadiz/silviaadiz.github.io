@@ -28,9 +28,9 @@ sections:
       title: ""
       text: |
         <div style="text-align: center; font-size: 15px;">
-          <span style="font-family: 'Arial Black', sans-serif; font-size: 38px; color: #4A90E2;">Hi, I'm Silvia!</span>
+          <span style="font-family: 'Arial Black', sans-serif; font-size: 38px; color: #4a4e69;">Hi, I'm Silvia!</span>
           <br><br>
-          Below are the most relevant, but you can know more about me <a href="aboutme/" style="color: #4A90E2; text-decoration: underline;">here</a>, and you can also give a look to my <a href="/content/cv.md" style="color: #4A90E2; text-decoration: underline;">CV</a>, <a href="/content/publications.md" style="color: #4A90E2; text-decoration: underline;">publications</a>, and <a href="/content/projects.md" style="color: #4A90E2; text-decoration: underline;">projects</a>.
+          You can know more about me <a href="aboutme/" style="color: #4a4e69; text-decoration: underline;">here</a>, and you can also give a look to my <a href="resume/" style="color: #4a4e69; text-decoration: underline;">CV</a>, <a href="publications/" style="color: #4a4e69; text-decoration: underline;">publications</a>, and <a href="projects/" style="color: #4a4e69; text-decoration: underline;">projects</a>.
         </div>
 
   - block: markdown
@@ -46,7 +46,7 @@ sections:
 
           <!-- Download CV Button -->
           <br>  <!-- Line break to place the button below the icons -->
-          <a href="uploads/resume.pdf" download style="margin-top: 3px; font-size: 16px; padding: 10px 20px; background-color: #4A90E2; color: white; text-decoration: none; border-radius: 5px;">
+          <a href="uploads/resume.pdf" download style="margin-top: 3px; font-size: 16px; padding: 10px 20px; background-color: #4a4e69; color: white; text-decoration: none; border-radius: 5px;">
             Download My CV
           </a>
         </div>
@@ -56,35 +56,5 @@ sections:
       spacing:
         padding: ["0px", "0", "10px", "0"]  
         
-        
-  - block: resume-experience
-    content:
-      username: admin
-    design:
-      date_format: 'January 2006'
-      is_education_first: false
-    style: |
-      <style>
-        /* Create two columns for Experience and Education */
-        .resume-experience {
-          display: flex;
-          gap: 20px;
-          justify-content: space-between;
-        }
-        .resume-experience > div {
-          width: 48%;
-        }
-
-        /* Hide icons for experience and education */
-        .resume-experience .icon {
-          display: none;
-        }
-
-
-      
-  - block: resume-skills
-    content:
-      title: ''
-      username: admin
 
 ---

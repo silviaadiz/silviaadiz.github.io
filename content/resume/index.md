@@ -1,62 +1,307 @@
 ---
-title: My page
-type: landing
-
-sections:
-  - block: experience
-    content:
-      title: Experience
-      date_format: Jan 2006
-      items:
-        - title: Research Technician
-          company: Center for Research in Molecular Medicine and Chronic Diseases (University of Santiago de Compostela)
-          location: Santiago de Compostela
-          date_start: '2020-07-01'
-          date_end: ''
-          description: |
-            Responsibilities include:
-            - Analysing
-            - Modelling
-            - Deploying
-        - title: PhD Student
-          company: University of Santiago de Compostela
-          date_start: '2021-01-03'
-          date_end: '2024-06-24'
-          description: |
-            Taught electronic engineering and researched semiconductor physics.
-    design:
-      columns: '2'
-
-  - block: experience
-    content:
-      title: Education
-      date_format: Jan 2006
-      items:
-        - title: PhD in Molecular Medicine
-          institution: University of Santiago de Compostela
-          date_start: '2021-01-03'
-          date_end: '2024-06-24'
-        - title: MSc in Statistical Techniques
-          institution: University of Santiago de Compostela
-          date_start: '2019-09-01'
-          date_end: '2021-06-30'
-          description: |
-            **Relevant courses:**
-            - Parametric regression modeling
-            - Mixed models
-            - Non-parametric regression modeling
-            - Survival analysis
-            - Multivariate analysis
-            - Time series
-            - Spatial analysis
-            - Probability models
-            - Inference
-            - Exploratory data analysis
-        - title: BSc in Biology
-          institution: University of Santiago de Compostela
-          date_start: '2015-09-01'
-          date_end: '2019-06-30'
-    design:
-      columns: '2'
-
+title: ''
+type: markdown
+reading_time: false
 ---
+
+<style>
+  /* General Styling */
+  body {
+    font-family: 'Roboto', roboto;
+    color: #4a4e69;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+
+  /* Timeline Styling */
+  .timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #4a4e69;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+  }
+
+  .timeline-item {
+    padding: 15px 30px;
+    position: relative;
+    width: 50%;
+    background: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  .timeline-item.left {
+    left: 0;
+  }
+
+  .timeline-item.right {
+    left: 50%;
+  }
+
+  .timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #4a4e69;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    top: 15px;
+    right: -8px;
+    z-index: 1;
+  }
+
+  .timeline-item.right::after {
+    left: -8px;
+  }
+
+  .timeline-item .date {
+    font-size: 12px;
+    color: #4a4e69;
+    margin-bottom: 8px;
+  }
+
+  .timeline-item .title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4a4e69;
+    margin-bottom: 8px;
+  }
+
+  .timeline-item .summary {
+    font-size: 14px;
+    color: #4a4e69;
+  }
+
+  .timeline-item .responsibilities {
+    font-size: 14px;
+    color: #4a4e69;
+    margin-top: 8px;
+    margin-left: 15px;
+  }
+
+  .timeline-item .responsibilities li {
+    margin-bottom: 4px;
+  }
+
+  /* Skills Section Styling */
+  .skills-section {
+    margin-top: 40px;
+  }
+
+  .skills-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+
+  .skill {
+    margin-bottom: 15px;
+  }
+
+  .skill-name {
+    font-size: 16px;
+    color: #4a4e69;
+    margin-bottom: 5px;
+  }
+
+  .skill-level {
+    font-size: 14px;
+    color: #4a4e69;
+    margin-bottom: 5px;
+  }
+
+  .skill-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #f2e9e4;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .skill-progress {
+    height: 100%;
+    background-color: #0d1b2a;
+    border-radius: 5px;
+  }
+
+  .skill-progress.r { width: 85%; }
+  .skill-progress.python { width: 20%; }
+  .skill-progress.bash { width: 30%; }
+
+  /* Horizontal Languages Styling */
+  .languages-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+  .language {
+    margin: 0 20px;
+    text-align: center;
+  }
+
+  .language-name {
+    font-size: 18px;
+    color: #4a4e69;
+  }
+
+  .language-level {
+    font-size: 14px;
+    color: #4a4e69;
+  }
+
+  /* Original Courses and Certifications Layout */
+  .courses-certifications-section {
+    margin-top: 40px;
+  }
+
+  .course-certification {
+    margin-bottom: 20px;
+  }
+
+  .course-certification-name {
+    font-size: 16px;
+    color: #4a4e69;
+  }
+
+  .course-certification-details {
+    font-size: 14px;
+    color: #4a4e69;
+  }
+</style>
+
+<!-- Work Experience Timeline -->
+<h2>Work Experience</h2>
+<div class="timeline">
+  <div class="timeline-item left">
+    <div class="date">July 2020 - June 2024</div>
+    <div class="title">Research Technician</div>
+    <div class="summary">Responsibilities include:</div>
+    <ul class="responsibilities">
+      <li>blabla</li>
+      <li>blabla</li>
+      <li>blabla</li>
+    </ul>
+  </div>
+
+  <div class="timeline-item right">
+    <div class="date">March 2021 - June 2024</div>
+    <div class="title">PhD Student</div>
+    <div class="summary">Responsibilities include:</div>
+    <ul class="responsibilities">
+      <li>blabla</li>
+      <li>blabla</li>
+      <li>blabla</li>
+    </ul>
+  </div>
+
+  <div class="timeline-item left">
+    <div class="date">March 2020 - July 2020</div>
+    <div class="title">Intern</div>
+    <div class="summary">Responsibilities include:</div>
+    <ul class="responsibilities">
+      <li>Supporting blabla</li>
+      <li>Assisting in statistical data analysis and report writing</li>
+      <li>Learning and applying research methodologies</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Education Timeline -->
+<h2>Education</h2>
+<div class="timeline">
+  <div class="timeline-item left">
+    <div class="date">2021 - 2024</div>
+    <div class="title">PhD in Molecular Medicine (Statistical Genetics)</div>
+    <div class="summary">Thesis research on the genetic basis underlying COVID-19 severity.</div>
+  </div>
+
+  <div class="timeline-item right">
+    <div class="date">2019 - 2021</div>
+    <div class="title">MSc in Statistical Techniques</div>
+    <div class="summary">Relevant courses: probability models, mixed models, parametric and non-parametric regression modelling, survival analysis, multivariate analysis, spatial analysis, exploratory data analysis, time series.</div>
+  </div>
+
+  <div class="timeline-item left">
+    <div class="date">2015 - 2019</div>
+    <div class="title">BSc in Biology</div>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="skills-section">
+  <h2>Skills</h2>
+  <div class="skill">
+    <div class="skill-name">R</div>
+    <div class="skill-level">Advanced</div>
+    <div class="skill-bar">
+      <div class="skill-progress r"></div>
+    </div>
+  </div>
+  <div class="skill">
+    <div class="skill-name">Python</div>
+    <div class="skill-level">Beginner</div>
+    <div class="skill-bar">
+      <div class="skill-progress python"></div>
+    </div>
+  </div>
+  <div class="skill">
+    <div class="skill-name">Bash</div>
+    <div class="skill-level">Intermediate</div>
+    <div class="skill-bar">
+      <div class="skill-progress bash"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Languages Section (Horizontal Layout) -->
+<h2>Languages</h2>
+<div class="languages-section">
+  <div class="language">
+    <div class="language-name">English</div>
+    <div class="language-level">Fluent-C2</div>
+  </div>
+  <div class="language">
+    <div class="language-name">Spanish</div>
+    <div class="language-level">Native</div>
+  </div>
+  <div class="language">
+    <div class="language-name">Galician</div>
+    <div class="language-level">Native</div>
+  </div>
+</div>
+
+<!-- Courses & Certifications Section (Original Layout) -->
+<h2>Courses & Certifications</h2>
+<div class="courses-certifications-section">
+  <div class="course-certification">
+    <div class="course-certification-name">A crash course in causality</div>
+    <div class="course-certification-details">Coursera, 2024</div>
+  </div>
+  <div class="course-certification">
+    <div class="course-certification-name">Hands on Clinical Reporting with R</div>
+    <div class="course-certification-details">Genentech - Coursera, 2024</div>
+  </div>
+</div>
+
+<!-- CV Download Section -->
+<div style="text-align: center; margin-top: 30px;">
+  <a href="uploads/resume.pdf" download style="padding: 10px 20px; background-color: #4a4e69; color: white; text-decoration: none; border-radius: 5px;">
+    Download My CV
+  </a>
+</div>

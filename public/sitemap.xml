@@ -6,10 +6,16 @@
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/aboutme/</loc>
+    <loc>http://localhost:4321/projects/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/publications/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:4321/resume/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/aboutme/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:4321/publication_types/</loc>

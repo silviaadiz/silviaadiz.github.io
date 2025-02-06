@@ -13,43 +13,342 @@
     </image>
     
     <item>
-      <title>About me</title>
-      <link>http://localhost:4321/aboutme/</link>
+      <title></title>
+      <link>http://localhost:4321/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/aboutme/</guid>
-      <description>&lt;p&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;&lt;div style=&#34;text-align: justify&#34;&gt;
-My name is Silvia. I am a biologist who discovered a passion for programming and decided to turn it into a career. Back in 2020, while I was doing my MSc in Statistics, I joined the Genomic Medicine research group as an intern. During this time, I developed R scripts for data wrangling and cleaning. Shortly after the pandemic lockdown ended in Spain, I became a research technician for the largest national project studying the genetic basis of COVID-19 (the SCOURGE project), which was awarded to my principal investigator.&lt;/p&gt;
-&lt;p&gt;In 2021, after completing my master’s, I decided to turn my research into a PhD, which I defended in June 2024 with a &lt;em&gt;Cum Laude&lt;/em&gt; distinction. During my PhD, I led studies for the SCOURGE consortium, focusing on identifying genetic determinants of COVID-19. This involved collaborating with over 30 research centers across Spain and Latin America. Boucing between biostatistics and bioinformatics (with a stronger focus on biostatistics), I spent a lot of time working with large-scale genetic and clinical data. My supervisors gave me a lot of freedom to design and run analyses, which meant I got to explore, experiment, make mistakes and learn at my own pace.  Half of my research focused on discovering genetic variants and genes linked to COVID-19 severity, while the other half evaluated polygenic risk scores as biomarkers for complex diseases. I also explored how these scores performed in diverse populations and their potential utility in clinical settings compared to non-genetic factors.&lt;/p&gt;
-&lt;p&gt;Since I enjoy staying busy and our team was small, I took on additional projects. Some involved assisting with analyses, while others allowed me to lead the planning and execution. These experiences taught me how to work in interdisciplinary teams, write detailed reports for external researchers, and manage remote collaborations. After finishing my PhD, I took some time to ponder my next steps. While I loved research, I decided to move into the pharmaceutical industry—and I’m currently looking for my next opportunity!&lt;/p&gt;
-&lt;p&gt;Now, since this is an &lt;em&gt;about me&lt;/em&gt; section and not my CV, here are a few personal facts:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;I read a lot. Some of my favorite books are The Maniac (Benjamin Labatut), White Teeth (Zadie Smith), and Cleaned Out (Annie Ernaux).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I have a very funny rescue dog named Cora who loves rolling in the dirt and requires daily baths.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I practice Iyengar Yoga.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I’m the person my friends turn to for household management advice.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I enjoy keeping up with fashion and tech drama.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Thanks for reading! Feel free to reach out if you’d like to connect :)&lt;/p&gt;
-&lt;p&gt;&lt;/span&gt;&lt;/div&gt;&lt;/p&gt;
+      <guid>http://localhost:4321/projects/</guid>
+      <description>&lt;p&gt;Under construction!&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>My page</title>
+      <title></title>
+      <link>http://localhost:4321/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/</guid>
+      <description>&lt;p&gt;Under construction!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://localhost:4321/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/resume/</guid>
-      <description></description>
+      <description>&lt;style&gt;
+  /* General Styling */
+  body {
+    font-family: &#39;Roboto&#39;, roboto;
+    color: #4a4e69;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+
+  /* Timeline Styling */
+  .timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  .timeline::after {
+    content: &#39;&#39;;
+    position: absolute;
+    width: 4px;
+    background-color: #4a4e69;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+  }
+
+  .timeline-item {
+    padding: 15px 30px;
+    position: relative;
+    width: 50%;
+    background: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  .timeline-item.left {
+    left: 0;
+  }
+
+  .timeline-item.right {
+    left: 50%;
+  }
+
+  .timeline-item::after {
+    content: &#39;&#39;;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #4a4e69;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    top: 15px;
+    right: -8px;
+    z-index: 1;
+  }
+
+  .timeline-item.right::after {
+    left: -8px;
+  }
+
+  .timeline-item .date {
+    font-size: 12px;
+    color: #4a4e69;
+    margin-bottom: 8px;
+  }
+
+  .timeline-item .title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4a4e69;
+    margin-bottom: 8px;
+  }
+
+  .timeline-item .summary {
+    font-size: 14px;
+    color: #4a4e69;
+  }
+
+  .timeline-item .responsibilities {
+    font-size: 14px;
+    color: #4a4e69;
+    margin-top: 8px;
+    margin-left: 15px;
+  }
+
+  .timeline-item .responsibilities li {
+    margin-bottom: 4px;
+  }
+
+  /* Skills Section Styling */
+  .skills-section {
+    margin-top: 40px;
+  }
+
+  .skills-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+
+  .skill {
+    margin-bottom: 15px;
+  }
+
+  .skill-name {
+    font-size: 16px;
+    color: #4a4e69;
+    margin-bottom: 5px;
+  }
+
+  .skill-level {
+    font-size: 14px;
+    color: #4a4e69;
+    margin-bottom: 5px;
+  }
+
+  .skill-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #f2e9e4;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .skill-progress {
+    height: 100%;
+    background-color: #0d1b2a;
+    border-radius: 5px;
+  }
+
+  .skill-progress.r { width: 85%; }
+  .skill-progress.python { width: 20%; }
+  .skill-progress.bash { width: 30%; }
+
+  /* Horizontal Languages Styling */
+  .languages-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+  .language {
+    margin: 0 20px;
+    text-align: center;
+  }
+
+  .language-name {
+    font-size: 18px;
+    color: #4a4e69;
+  }
+
+  .language-level {
+    font-size: 14px;
+    color: #4a4e69;
+  }
+
+  /* Original Courses and Certifications Layout */
+  .courses-certifications-section {
+    margin-top: 40px;
+  }
+
+  .course-certification {
+    margin-bottom: 20px;
+  }
+
+  .course-certification-name {
+    font-size: 16px;
+    color: #4a4e69;
+  }
+
+  .course-certification-details {
+    font-size: 14px;
+    color: #4a4e69;
+  }
+&lt;/style&gt;
+&lt;!-- Work Experience Timeline --&gt;
+&lt;h2&gt;Work Experience&lt;/h2&gt;
+&lt;div class=&#34;timeline&#34;&gt;
+  &lt;div class=&#34;timeline-item left&#34;&gt;
+    &lt;div class=&#34;date&#34;&gt;July 2020 - June 2024&lt;/div&gt;
+    &lt;div class=&#34;title&#34;&gt;Research Technician&lt;/div&gt;
+    &lt;div class=&#34;summary&#34;&gt;Responsibilities include:&lt;/div&gt;
+    &lt;ul class=&#34;responsibilities&#34;&gt;
+      &lt;li&gt;blabla&lt;/li&gt;
+      &lt;li&gt;blabla&lt;/li&gt;
+      &lt;li&gt;blabla&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline-item right&#34;&gt;
+    &lt;div class=&#34;date&#34;&gt;March 2021 - June 2024&lt;/div&gt;
+    &lt;div class=&#34;title&#34;&gt;PhD Student&lt;/div&gt;
+    &lt;div class=&#34;summary&#34;&gt;Responsibilities include:&lt;/div&gt;
+    &lt;ul class=&#34;responsibilities&#34;&gt;
+      &lt;li&gt;blabla&lt;/li&gt;
+      &lt;li&gt;blabla&lt;/li&gt;
+      &lt;li&gt;blabla&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline-item left&#34;&gt;
+    &lt;div class=&#34;date&#34;&gt;March 2020 - July 2020&lt;/div&gt;
+    &lt;div class=&#34;title&#34;&gt;Intern&lt;/div&gt;
+    &lt;div class=&#34;summary&#34;&gt;Responsibilities include:&lt;/div&gt;
+    &lt;ul class=&#34;responsibilities&#34;&gt;
+      &lt;li&gt;Supporting blabla&lt;/li&gt;
+      &lt;li&gt;Assisting in statistical data analysis and report writing&lt;/li&gt;
+      &lt;li&gt;Learning and applying research methodologies&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Education Timeline --&gt;
+&lt;h2&gt;Education&lt;/h2&gt;
+&lt;div class=&#34;timeline&#34;&gt;
+  &lt;div class=&#34;timeline-item left&#34;&gt;
+    &lt;div class=&#34;date&#34;&gt;2021 - 2024&lt;/div&gt;
+    &lt;div class=&#34;title&#34;&gt;PhD in Molecular Medicine (Statistical Genetics)&lt;/div&gt;
+    &lt;div class=&#34;summary&#34;&gt;Thesis research on the genetic basis underlying COVID-19 severity.&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline-item right&#34;&gt;
+    &lt;div class=&#34;date&#34;&gt;2019 - 2021&lt;/div&gt;
+    &lt;div class=&#34;title&#34;&gt;MSc in Statistical Techniques&lt;/div&gt;
+    &lt;div class=&#34;summary&#34;&gt;Relevant courses: probability models, mixed models, parametric and non-parametric regression modelling, survival analysis, multivariate analysis, spatial analysis, exploratory data analysis, time series.&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline-item left&#34;&gt;
+    &lt;div class=&#34;date&#34;&gt;2015 - 2019&lt;/div&gt;
+    &lt;div class=&#34;title&#34;&gt;BSc in Biology&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Skills Section --&gt;
+&lt;div class=&#34;skills-section&#34;&gt;
+  &lt;h2&gt;Skills&lt;/h2&gt;
+  &lt;div class=&#34;skill&#34;&gt;
+    &lt;div class=&#34;skill-name&#34;&gt;R&lt;/div&gt;
+    &lt;div class=&#34;skill-level&#34;&gt;Advanced&lt;/div&gt;
+    &lt;div class=&#34;skill-bar&#34;&gt;
+      &lt;div class=&#34;skill-progress r&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;skill&#34;&gt;
+    &lt;div class=&#34;skill-name&#34;&gt;Python&lt;/div&gt;
+    &lt;div class=&#34;skill-level&#34;&gt;Beginner&lt;/div&gt;
+    &lt;div class=&#34;skill-bar&#34;&gt;
+      &lt;div class=&#34;skill-progress python&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;skill&#34;&gt;
+    &lt;div class=&#34;skill-name&#34;&gt;Bash&lt;/div&gt;
+    &lt;div class=&#34;skill-level&#34;&gt;Intermediate&lt;/div&gt;
+    &lt;div class=&#34;skill-bar&#34;&gt;
+      &lt;div class=&#34;skill-progress bash&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Languages Section (Horizontal Layout) --&gt;
+&lt;h2&gt;Languages&lt;/h2&gt;
+&lt;div class=&#34;languages-section&#34;&gt;
+  &lt;div class=&#34;language&#34;&gt;
+    &lt;div class=&#34;language-name&#34;&gt;English&lt;/div&gt;
+    &lt;div class=&#34;language-level&#34;&gt;Fluent-C2&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;language&#34;&gt;
+    &lt;div class=&#34;language-name&#34;&gt;Spanish&lt;/div&gt;
+    &lt;div class=&#34;language-level&#34;&gt;Native&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;language&#34;&gt;
+    &lt;div class=&#34;language-name&#34;&gt;Galician&lt;/div&gt;
+    &lt;div class=&#34;language-level&#34;&gt;Native&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Courses &amp; Certifications Section (Original Layout) --&gt;
+&lt;h2&gt;Courses &amp; Certifications&lt;/h2&gt;
+&lt;div class=&#34;courses-certifications-section&#34;&gt;
+  &lt;div class=&#34;course-certification&#34;&gt;
+    &lt;div class=&#34;course-certification-name&#34;&gt;A crash course in causality&lt;/div&gt;
+    &lt;div class=&#34;course-certification-details&#34;&gt;Coursera, 2024&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;course-certification&#34;&gt;
+    &lt;div class=&#34;course-certification-name&#34;&gt;Hands on Clinical Reporting with R&lt;/div&gt;
+    &lt;div class=&#34;course-certification-details&#34;&gt;Genentech - Coursera, 2024&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- CV Download Section --&gt;
+&lt;div style=&#34;text-align: center; margin-top: 30px;&#34;&gt;
+  &lt;a href=&#34;uploads/resume.pdf&#34; download style=&#34;padding: 10px 20px; background-color: #4a4e69; color: white; text-decoration: none; border-radius: 5px;&#34;&gt;
+    Download My CV
+  &lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>http://localhost:4321/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/aboutme/</guid>
+      <description>&lt;span style=&#34;font-family: &#39;Roboto&#39;, sans-serif; font-size: 16px; text-align: justify;&#34;&gt;
+&lt;p&gt;My name is Silvia. I am a biologist who discovered a passion for programming and decided to turn it into a career. Back in 2020, while I was doing my MSc in Statistics, I joined the Genomic Medicine research group as an intern. Shortly after the pandemic lockdown ended in Spain, I became a research technician for the largest national project studying the genetic basis of COVID-19 (the SCOURGE project), which was awarded to my principal investigator.&lt;/p&gt;
+&lt;p&gt;In 2021, after completing my master’s, I decided to turn my research into a PhD, which I defended in June 2024 with a &lt;em&gt;Cum Laude&lt;/em&gt; distinction. During that time I led studies for the SCOURGE consortium, focusing on identifying genetic determinants of COVID-19, which involved collaborating with over 30 research centers across Spain and Latin America and studied more than 15,000 patients. Boucing between biostatistics and bioinformatics (with a stronger focus on biostatistics), I spent a lot of time working with large-scale genetic and clinical data and writing tons of R code. My supervisors gave me a lot of freedom to design and run analyses, which meant I got to explore, experiment, make mistakes and learn at my own pace.  Half of my research focused on discovering genetic variants and genes linked to COVID-19 severity, while the other half evaluated polygenic risk scores as biomarkers for complex diseases, exploring how these scores performed in diverse populations and their potential utility in clinical settings compared to non-genetic factors.&lt;/p&gt;
+&lt;p&gt;Since I enjoy staying busy and our team was small, I took on additional projects. Some involved assisting with analyses, while others allowed me to lead the planning and execution. These experiences taught me how to work in interdisciplinary teams, write detailed reports for external researchers, and manage remote collaborations. After finishing my PhD, I took some time to ponder my next steps. While I loved research, I decided to move into the pharmaceutical industry—and I’m currently looking for my next opportunity!&lt;/p&gt;
+&lt;p&gt;Now, since this is an &lt;em&gt;about me&lt;/em&gt; section and not my CV, here are a few personal facts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I read a lot. Some of my favorite books are The Maniac (Benjamin Labatut), White Teeth (Zadie Smith), and Cleaned Out (Annie Ernaux).&lt;/li&gt;
+&lt;li&gt;I have a very funny rescue dog named Cora who loves rolling in the dirt and requires daily baths.&lt;/li&gt;
+&lt;li&gt;I practice Iyengar Yoga.&lt;/li&gt;
+&lt;li&gt;I’m the person my friends turn to for household management advice.&lt;/li&gt;
+&lt;li&gt;I enjoy keeping up with fashion and tech drama.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Thanks for reading! Feel free to reach out if you’d like to connect :)
+&lt;/span&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

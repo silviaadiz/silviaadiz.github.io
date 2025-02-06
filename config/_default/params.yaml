@@ -12,7 +12,7 @@ appearance:
 
 
 font: custom_font
-
+showReadingTime: false
 # SEO
 marketing:
   seo:
