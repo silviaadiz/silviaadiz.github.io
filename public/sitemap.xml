@@ -6,6 +6,9 @@
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>http://localhost:4321/contact/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:4321/projects/</loc>
     <changefreq>weekly</changefreq>
   </url><url>

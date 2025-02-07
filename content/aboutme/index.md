@@ -2,23 +2,32 @@
 title: About me
 type: markdown
 reading_time: false
+share: false
+
 ---
 
 <span style="font-family: 'Roboto', sans-serif; font-size: 16px; text-align: justify;">
 
-  I am a biologist who discovered a passion for programming and decided to turn it into a career. Back in 2020, while I was doing my MSc in Statistics, I joined the Genomic Medicine (Grupo de Medicina Xenómica) research group as an intern. Shortly after the pandemic lockdown ended in Spain, I became a research technician for the largest national project studying the genetic basis of COVID-19 (the SCOURGE project), which was awarded to my principal investigator.
+  I am a biologist who discovered a passion for programming and biostatistics and decided to turn it into a career. Back in 2020, while pursuing my MSc in Statistics, I joined the Genomic Medicine (Grupo de Medicina Xenómica) research group as an intern. Shortly after the pandemic lockdown ended, I became a research technician for the SCOURGE project, Spain’s largest national study on the genetic determinants of COVID-19, awarded to my principal investigator.
 
-  In 2021, after completing my master’s, I decided to turn my research into a PhD, which I defended in June 2024 with a _Cum Laude_ distinction. During that time I led studies for the SCOURGE consortium, focusing on identifying genetic determinants of COVID-19, which involved collaborating with over 30 research centers across Spain and Latin America and studied more than 15,000 patients. Boucing between biostatistics and bioinformatics (with a stronger focus on biostatistics), I spent a lot of time working with large-scale genetic and clinical data and writing tons of R code. My supervisors gave me a lot of freedom to design and run analyses, which meant I got to explore, experiment, make mistakes and learn at my own pace.  Half of my research focused on discovering genetic variants and genes linked to COVID-19 severity, while the other half evaluated polygenic risk scores as biomarkers for complex diseases, exploring how these scores performed in diverse populations and their potential utility in clinical settings compared to non-genetic factors.
+  In 2021, after completing my master’s, I decided to turn my research into a PhD, which I defended in June 2024 with a _Cum Laude_ distinction. During that time I led studies for the SCOURGE consortium, which involved collaborating with over 30 research centers across Spain and Latin America and studied more than 15,000 patients. My work focused on two key areas: identifying genetic variants linked to COVID-19 severity and evaluating polygenic risk scores as biomarkers for complex diseases, exploring how they performed in diverse populations and clinical settings. My supervisors gave me the freedom to experiment, make mistakes, and learn, which shaped me into a confident and independent researcher. Boucing between biostatistics and bioinformatics (with a stronger focus on biostatistics), during those 4 years I spent a lot of time working with large-scale genetic and biomedical data, reading papers in search of cool methods and writing tons of R code.
 
-  Since I enjoy staying busy and our team was small, I took on additional projects. Some involved assisting with analyses, while others allowed me to lead the planning and execution. These experiences taught me how to work in interdisciplinary teams, write detailed reports for external researchers, and manage remote collaborations. After finishing my PhD, I took some time to ponder my next steps. While I loved research, I decided to move into the pharmaceutical industry—and I’m currently looking for my next opportunity!
+Since I enjoy staying busy and our team was small, I took on several additional projects. Some involved assisting with analyses, while others allowed me to lead planning and execution. These experiences taught me how to collaborate in interdisciplinary teams, write detailed reports for external researchers, and manage remote collaborations—all while meeting many incredible people. 
 
-  Now, since this is an _about me_ section and not my CV, here are a few personal facts:
+In terms of teaching, I delivered seminars for a MSc program in Biomedical Science and mentored undergraduate, graduate, and PhD students, as well as co-directed a MSc thesis. Additionally, a colleague and I had the opportunity to supervise a high school team during a research program called STEMbach. As part of the program, I presented a talk at a local high school on how we use statistics in genome-wide association studies (GWAS).
+
+  
+  When I completed my PhD I took some time to ponder my next steps. While I enjoyed research and had fantastic colleagues, I found it difficult to stay engaged when the path from research findings to real-world healthcare applications wasn’t always clear. In the end, what motivates me most is seeing a real world impact. Therefore, I've decided to transition into the pharmaceutical industry, so I’m currently seeking my next opportunity to continue doing what I love —digging into and analyzing data.
+
+  Now, since this is an _about me_ section, here are a few personal facts:
 
   1. I read a lot. Some of my favorite books are The Maniac (Benjamin Labatut), White Teeth (Zadie Smith), and Cleaned Out (Annie Ernaux).
   2. I have a very funny rescue dog named Cora who loves rolling in the dirt and requires daily baths.
   3. I practice Iyengar Yoga.
   4. I’m the person my friends turn to for household management advice.
   5. I enjoy keeping up with fashion and tech drama.
+
+
 
   Thanks for reading! Feel free to reach out if you’d like to connect :)
 </span>

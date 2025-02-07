@@ -29,4 +29,7 @@ main:
     url: "projects/"
     weight: 50
 
+  - name: Contact
+    url: "contact/"
+    weight: 80
 

@@ -2,6 +2,8 @@
 title: ''
 type: markdown
 reading_time: false
+share: false
+
 ---
 
 <style>
@@ -186,6 +188,14 @@ reading_time: false
     color: #4a4e69;
   }
 </style>
+
+<!-- CV Download Section -->
+<div style="text-align: center; margin-top: 30px;">
+  <a href="uploads/resume.pdf" download style="padding: 10px 20px; background-color: #4a4e69; color: white; text-decoration: none; border-radius: 5px;">
+    Download My CV
+  </a>
+</div>
+
 <!-- Work Experience Timeline -->
 <h2>Work Experience</h2>
 <div class="timeline">
@@ -227,13 +237,13 @@ reading_time: false
   <div class="timeline-item left">
     <div class="date">2021 - 2024</div>
     <div class="title">PhD in Molecular Medicine (Statistical Genetics)</div>
-    <div class="summary">Thesis research on the genetic basis underlying COVID-19 severity.</div>
+    <div class="summary">Thesis research on the genetic basis of COVID-19 severity.</div>
   </div>
 
   <div class="timeline-item right">
     <div class="date">2019 - 2021</div>
     <div class="title">MSc in Statistical Techniques</div>
-    <li>Relevant courses: Probability models, mixed models, parametric and non-parametric regression modelling, survival analysis, multivariate analysis, spatial analysis, exploratory data analysis, time series.</li>
+    <div class="summary">Relevant courses: Probability models, mixed models, parametric and non-parametric regression modelling, survival analysis, multivariate analysis, spatial analysis, exploratory data analysis, time series.</div>
   </div>
 
   <div class="timeline-item left">
@@ -298,9 +308,4 @@ reading_time: false
   </div>
 </div>
 
-<!-- CV Download Section -->
-<div style="text-align: center; margin-top: 30px;">
-  <a href="uploads/resume.pdf" download style="padding: 10px 20px; background-color: #4a4e69; color: white; text-decoration: none; border-radius: 5px;">
-    Download My CV
-  </a>
-</div>
+

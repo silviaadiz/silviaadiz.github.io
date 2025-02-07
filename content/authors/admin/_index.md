@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Silvia Diz
+title: 'Silvia Diz'
 
 
 # Full name (for SEO)
@@ -26,10 +26,8 @@ profiles:
     label: E-mail Me
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/silvia-diz/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0003-2813-8928
 
 
 ---
