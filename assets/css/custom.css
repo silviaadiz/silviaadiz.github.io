@@ -1,7 +1,8 @@
 .avatar {
-  width: 1000px !important;  /* Adjust as needed */
-  height: 1000px !important;   
+  width: 500px !important;  /* Adjust as needed */
+  height: 500px !important;   
 /* Keep it proportional */
+ object-fit: cover;
 }
 
 .avatar-wrapper {
