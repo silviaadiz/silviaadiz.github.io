@@ -113,15 +113,6 @@
     
     <item>
       <title></title>
-      <link>http://localhost:4321/publications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publications/</guid>
-      <description>&lt;p&gt;Under construction!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>http://localhost:4321/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/resume/</guid>
@@ -426,10 +417,10 @@
       <guid>http://localhost:4321/aboutme/</guid>
       <description>&lt;span style=&#34;font-family: &#39;Roboto&#39;, sans-serif; font-size: 16px; text-align: justify;&#34;&gt;
 &lt;p&gt;I am a biologist who discovered a passion for programming and biostatistics and decided to turn it into a career. Back in 2020, while pursuing my MSc in Statistics, I joined the Genomic Medicine (Grupo de Medicina Xenómica) research group as an intern. Shortly after the pandemic lockdown ended, I became a research technician for the SCOURGE project, Spain’s largest national study on the genetic determinants of COVID-19, awarded to my principal investigator.&lt;/p&gt;
-&lt;p&gt;In 2021, after completing my master’s, I decided to turn my research into a PhD, which I defended in June 2024 with a &lt;em&gt;Cum Laude&lt;/em&gt; distinction. During that time I led studies for the SCOURGE consortium, which involved collaborating with over 30 research centers across Spain and Latin America and studied more than 15,000 patients. My work focused on two key areas: identifying genetic variants linked to COVID-19 severity and evaluating polygenic risk scores as biomarkers for complex diseases, exploring how they performed in diverse populations and clinical settings. My supervisors gave me the freedom to experiment, make mistakes, and learn, which shaped me into a confident and independent researcher. Boucing between biostatistics and bioinformatics (with a stronger focus on biostatistics), during those 4 years I spent a lot of time working with large-scale genetic and biomedical data, reading papers in search of cool methods and writing tons of R code.&lt;/p&gt;
-&lt;p&gt;Since I enjoy staying busy and our team was small, I took on several additional projects. Some involved assisting with analyses, while others allowed me to lead planning and execution. These experiences taught me how to collaborate in interdisciplinary teams, write detailed reports for external researchers, and manage remote collaborations—all while meeting many incredible people.&lt;/p&gt;
+&lt;p&gt;In 2021, I completed my master’s degree and turned my research into a PhD, that I successfully defended in June 2024, earning a &lt;em&gt;Cum Laude&lt;/em&gt; distinction. During that time I led studies for the SCOURGE consortium, involving a collaboration between over 30 research centers across Spain and Latin America and studying more than 15,000 patients. My work focused on two key areas: identifying genetic variants linked to COVID-19 severity and evaluating polygenic risk scores as biomarkers for complex diseases, exploring how they performed in diverse populations and clinical settings. My supervisors gave me the freedom to experiment, make mistakes, and learn, which shaped me into a confident and independent researcher. Boucing between biostatistics and bioinformatics, during those 4 years I spent a lot of time working with large-scale genetic and biomedical data, reading papers in search of cool methods and writing tons of R code.&lt;/p&gt;
+&lt;p&gt;Since I enjoy staying busy and our team was small, I took on several additional projects. Some involved assisting with analyses, while others allowed me to lead planning and execution. These experiences taught me how to work in interdisciplinary teams, write detailed reports for external researchers, and manage remote collaborations—all while meeting many incredible people. My research papers can be found at &lt;a href=&#34;https://orcid.org/0000-0003-2813-8928&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;my orcid&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In terms of teaching, I delivered seminars for a MSc program in Biomedical Science and mentored undergraduate, graduate, and PhD students, as well as co-directed a MSc thesis. Additionally, a colleague and I had the opportunity to supervise a high school team during a research program called STEMbach. As part of the program, I presented a talk at a local high school on how we use statistics in genome-wide association studies (GWAS).&lt;/p&gt;
-&lt;p&gt;When I completed my PhD I took some time to ponder my next steps. While I enjoyed research and had fantastic colleagues, I found it difficult to stay engaged when the path from research findings to real-world healthcare applications wasn’t always clear. In the end, what motivates me most is seeing a real world impact. Therefore, I&amp;rsquo;ve decided to transition into the pharmaceutical industry, so I’m currently seeking my next opportunity to continue doing what I love —digging into and analyzing data.&lt;/p&gt;
+&lt;p&gt;When I completed my PhD I took some time to ponder my next steps. While I enjoyed research and had fantastic colleagues, I found it difficult to stay engaged when the path from research findings to real-world healthcare applications wasn’t always clear. In the end, what keeps me motivated is seeing that my work has a real world impact. Therefore, I&amp;rsquo;ve decided to transition into the pharmaceutical industry, so I’m currently seeking my next opportunity to continue doing what I love —digging into and analyzing data.&lt;/p&gt;
 &lt;p&gt;Now, since this is an &lt;em&gt;about me&lt;/em&gt; section, here are a few personal facts:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;I read a lot. Some of my favorite books are The Maniac (Benjamin Labatut), White Teeth (Zadie Smith), and Cleaned Out (Annie Ernaux).&lt;/li&gt;
