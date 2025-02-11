@@ -1,0 +1,459 @@
+---
+title: Clonal chromosomal mosaicism and loss of chromosome Y in elderly men increase
+  vulnerability for SARS-CoV-2
+authors:
+- Luis A. Pérez-Jurado
+- Alejandro Cáceres
+- Laura Balagué-Dobón
+- Tonu Esko
+- Miguel López de Heredia
+- Inés Quintela
+- Raquel Cruz
+- Pablo Lapunzina
+- Ángel Carracedo
+- Javier Abellán
+- René Acosta-Isaac
+- Jose María Aguado
+- Carlos Aguilar
+- Sergio Aguilera-Albesa
+- Abdolah Ahmadi Sabbagh
+- Jorge Alba
+- Sergiu Albu
+- Karla A. M. Alcalá-Gallardo
+- Julia Alcoba-Florez
+- Sergio Alcolea Batres
+- Holmes Rafael Algarin-Lara
+- Virginia Almadana
+- Kelliane A. Medeiros
+- Julia Almeida
+- Berta Almoguera
+- María R. Alonso
+- Nuria Álvarez
+- Rodolfo Álvarez-Sala Walther
+- Yady Álvarez-Benítez
+- Felipe Álvarez-Navia
+- Katiusse A. dos Santos
+- Álvaro Andreu-Bernabeu
+- Maria Rosa Antonijoan
+- Eleno Martínez-Aquino
+- Eunate Arana-Arri
+- Carlos Aranda
+- Celso Arango
+- Carolina Araque
+- Nathalia K. Araujo
+- Ana C. Arcanjo
+- Ana Arnaiz
+- Francisco Arnalich Fernández
+- María J. Arranz
+- José Ramón Arribas López
+- Maria-Jesús Artiga
+- Yubelly Avello-Malaver
+- Carmen Ayuso
+- Belén Ballina Martín
+- Raúl C. Baptista-Rosas
+- Ana María Baldion
+- Andrea Barranco-Díaz
+- María Barreda-Sánchez
+- Viviana Barrera-Penagos
+- Moncef Belhassen-Garcia
+- David Bernal-Bello
+- Enrique Bernal
+- Joao F. Bezerra
+- Marcos A. C. Bezerra
+- Natalia Blanca-López
+- Rafael Blancas
+- Lucía Boix-Palop
+- Alberto Borobia
+- Elsa Bravo
+- María Brion
+- Óscar Brochado-Kith
+- Ramón Brugada
+- Matilde Bustos
+- Alfonso Cabello
+- Juan J. Cáceres-Agra
+- Esther Calbo
+- Enrique J. Calderón
+- Shirley Camacho
+- Francisco C. Ceballos
+- Yolanda Cañadas
+- Cristina Carbonell
+- Servando Cardona-Huerta
+- María Sánchez-Carpintero Abad
+- Carlos Carpio Segura
+- José Antonio Carrillo-Avila
+- Marcela C. Campos
+- Carlos Casasnovas
+- Luis Castaño
+- Carlos F. Castaño
+- Jose E. Castelao
+- Aranzazu Castellano Candalija
+- María A. Castillo
+- Walter G. Chaves-Santiago
+- Sylena Chiquillo-Gómez
+- Marco A. Cid-López
+- Óscar Cienfuegos-Jiménez
+- Rosa Conde-Vicente
+- Gabriela C. R. Cunha
+- M. Lourdes Cordero-Lorenzana
+- Dolores Corella
+- Almudena Corrales
+- Jose L. Cortés-Sánchez
+- Marta Corton
+- Karla S. C. Souza
+- Fabiola T. C. Silva
+- Luisa Cuesta
+- Nathali A. C. Tavares
+- Maria C. C. Carvalho
+- David Dalmau
+- Raquel C. S. Dantas-Komatsu
+- M. Teresa Darnaude
+- Raimundo de Andrés
+- Carmen de Juan
+- Juan J. de la Cruz Troca
+- Carmen de la Horra
+- Ana B. de la Hoz
+- Alba De Martino-Rodríguez
+- Marina S. Cruz
+- Julianna Lys de Sousa Alves Neri
+- Victor del Campo-Pérez
+- Juan Delgado-Cuesta
+- Aranzazu Diaz de Bustamante
+- Anderson Díaz-Pérez
+- Beatriz Dietl
+- Silvia Diz-de Almeida
+- Manoella do Monte Alves
+- Elena Domínguez-Garrido
+- Lidia S. Rosa
+- Andre D. Luchessi
+- Jose Echave-Sustaeta
+- Rocío Eiros
+- César O. Enciso-Olivera
+- Gabriela Escudero
+- Pedro Pablo España
+- Gladys Estigarribia Sanabria
+- María Carmen Fariñas
+- Ramón Fernández
+- Lidia Fernández-Caballero
+- Ana Fernández-Cruz
+- Silvia Fernández-Ferrero
+- Yolanda Fernández Martínez
+- María J. Fernandez-Nestosa
+- Uxía Fernández-Robelo
+- Amanda Fernández-Rodríguez
+- Marta Fernández-Sampedro
+- Ruth Fernández
+- Tania Fernández-Villa
+- Carmen Fernández-Capitán
+- Antonio Augusto F. Carioca
+- Patricia Flores-Pérez
+- Lácides Fuenmayor-Hernández
+- Marta Fuertes-Núñez
+- Victoria Fumadó
+- Ignacio Gadea
+- Lidia Gagliardi
+- Manuela Gago-Domínguez
+- Natalia Gallego
+- Cristina Galoppo
+- Ana García-Soidán
+- Carlos García-Cerrada
+- Aitor García-de-Vicuña
+- Josefina Garcia-García
+- Irene García-García
+- Carmen García-Ibarbia
+- Andrés C. García-Montero
+- Leticia García
+- Mercedes García
+- María Carmen García Torrejón
+- Inés García
+- Elisa García-Vázquez
+- Emiliano Garza-Frias
+- Angela Gentile
+- Belén Gil-Fournier
+- Jéssica N. G. de Araújo
+- Mario Gómez-Duque
+- Javier Gómez-Arrue
+- Luis Gómez Carrera
+- María Gómez García
+- Ángela Gómez Sacristán
+- Juan R. González
+- Anna González-Neira
+- Beatriz González Álvarez
+- Fernán González Bernaldo de Quirós
+- Rafaela González-Montelongo
+- Javier González-Peñas
+- Manuel Gonzalez-Sagrado
+- Hugo Gonzalo-Benito
+- Oscar Gorgojo-Galindo
+- Miguel Górgolas
+- Florencia Guaragna
+- Jessica G. Chaux
+- Encarna Guillén-Navarro
+- Beatriz Guillén-Guío
+- Pablo Guisado-Vasco
+- Luz D. Gutiérrez-Castañeda
+- Juan F. Gutiérrez-Bautista
+- Sara Heili-Frades
+- Rafael H. Jacomo
+- Estefania Hernández
+- Cristina Hernández-Moro
+- Luis D. Hernández-Ortega
+- Guillermo Hernández-Pérez
+- Rebeca Hernández-Vaquero
+- Belén Herráez
+- M. Teresa Herranz
+- María Herrera
+- María José Herrero
+- Antonio Herrero-González
+- Juan P. Horcajada
+- Natale Imaz-Ayo
+- Maider Intxausti-Urrutibeaskoa
+- Antonio Íñigo-Campos
+- María Íñiguez
+- Rubén Jara
+- Ángel Jiménez
+- Ignacio Jiménez-Alfaro
+- Pilar Jiménez
+- María A. Jiménez-Sousa
+- Iolanda Jordan
+- Rocío Laguna-Goya
+- Daniel Laorden
+- María Lasa-Lázaro
+- María Claudia Lattig
+- Ailen Lauriente
+- Anabel Liger Borja
+- Lucía Llanos
+- Amparo López-Bernús
+- Miguel López de Heredia
+- Esther Lopez-Garcia
+- Eduardo López-Granados
+- Rosario Lopez-Rodriguez
+- Miguel A. López-Ruz
+- Leonardo Lorente
+- José M. Lorenzo-Salazar
+- José E. Lozano
+- María Lozano-Espinosa
+- Ignacio Mahillo
+- Esther Mancebo
+- Carmen Mar
+- Cristina Marcelo Calvo
+- Alba Marcos-Delgado
+- Miguel Marcos
+- Alicia Marín-Candón
+- Pablo Mariscal-Aguilar
+- Laura Martin-Pedraza
+- Marta Martin-Fernandez
+- Caridad Martín-López
+- José-Ángel Martín-Oterino
+- María Dolores Martín
+- Vicente Martín
+- María M. Martín
+- María Martín-Vicente
+- Amalia Martinez
+- Óscar Martínez-González
+- Ricardo Martínez
+- Pedro Martinez-Paz
+- Covadonga M. Díaz-Caneja
+- Óscar Martínez-Nieto
+- Iciar Martínez-López
+- Michel F. Martínez-Reséndez
+- Silvia Martínez
+- Juan José Martínez
+- Ángel Martínez-Pérez
+- Andrea Martínez-Ramas
+- Violeta Martínez-Robles
+- Laura Marzal
+- Juliana F. Mazzeu
+- Francisco J. Medrano
+- Xose M. Meijome
+- Natalia Mejuto-Montero
+- Ingrid Mendes
+- Alice L. Duarte
+- Ana Méndez-Echevarría
+- Humberto Mendoza Charris
+- Eleuterio Merayo Macías
+- Fátima Mercadillo
+- Arieh R. Mercado-Sesma
+- Pablo Mínguez
+- Elena Molina-Roldán
+- Antonio J. J. Molina
+- Juan José Montoya
+- Susana M. T. Pinho
+- Patricia Moreira-Escriche
+- Xenia Morelos-Arnedo
+- Rocío Moreno
+- Víctor Moreno Cuerda
+- Antonio Moreno-Docón
+- Junior Moreno-Escalante
+- Alberto Moreno Fernández
+- Patricia Muñoz García
+- Pablo Neira
+- Julián Nevado
+- Israel Nieto-Gañán
+- Vivian N. Silbiger
+- Rocío Nuñez-Torres
+- Antònia Obrador-Hevia
+- J. Gonzalo Ocejo-Vinyals
+- Virginia Olivar
+- Silviene F. Oliveira
+- Lorena Ondo
+- Alberto Orfao
+- Eva Ortega-Paino
+- Luis Ortega
+- Rocío Ortiz-López
+- Fernando Ortiz-Flores
+- José A. Oteo
+- Manuel Pacheco
+- Fredy Javier Pacheco-Miranda
+- Irene Padilla-Conejo
+- Sonia Panadero-Fajardo
+- Mara Parellada
+- Roberto Pariente-Rodríguez
+- Vicente Friaza
+- Estela Paz-Artal
+- Germán Peces-Barba
+- Miguel S. Pedromingo Kus
+- Celia Perales
+- Ney P. C. Santos
+- Genilson P. Guegel
+- María Jazmín Pérez
+- Alexandra Pérez
+- Patricia Pérez-Matute
+- César Pérez
+- Gustavo Pérez-de-Nanclares
+- Felipe Pérez-García
+- Patricia Pérez
+- M. Elena Pérez-Tomás
+- Teresa Perucho
+- Lisbeth A. Pichardo
+- Adriana P. Ribeiro
+- Mel·lina Pinsach-Abuin
+- Luz Adriana Pinzón
+- Jeane F. P. Medeiros
+- Guillermo Pita
+- Francesc Pla-Juncà
+- Laura Planas-Serra
+- Ericka N. Pompa-Mera
+- Gloria L. Porras-Hurtado
+- Aurora Pujol
+- María Eugenia Quevedo-Chávez
+- Maria Angeles Quijada
+- Inés Quintela
+- Soraya Ramiro-León
+- Pedro Rascado Sedes
+- Joana F. R. Nunes
+- Delia Recalde
+- Emma Recio-Fernández
+- Salvador Resino
+- Renata R. Sousa
+- Carlos S. Rivadeneira-Chamorro
+- Diana Roa-Agudelo
+- Montserrat Robelo Pardo
+- Marianne R. Fernandes
+- María A. Rodríguez-Hernández
+- Agustí Rodriguez-Palmero
+- Emilio Rodríguez-Ruiz
+- Marilyn Johanna Rodriguez
+- Fernando Rodríguez-Artalejo
+- Marena Rodríguez-Ferrer
+- Carlos Rodríguez-Gallego
+- José A. Rodríguez-García
+- Belén Rodríguez Maya
+- Antonio Rodriguez-Nicolas
+- German Ezequiel Rodríguez-Novoa
+- Paula A. Rodriguez-Urrego
+- Federico Rojo
+- Andrea Romero-Coronado
+- Rubén Morilla
+- Filomeno Rondón-García
+- Antonio Rosales-Castillo
+- Cladelis Rubio
+- María Rubio Olivera
+- Francisco Ruiz-Cabello
+- Eva Ruiz-Casares
+- Juan J. Ruiz-Cubillan
+- Javier Ruiz-Hornillos
+- Montserrat Ruiz
+- Pablo Ryan
+- Hector D. Salamanca
+- Lorena Salazar-García
+- Giorgina Gabriela Salgueiro-Origlia
+- Anna Sangil
+- Olga Sánchez-Pernaute
+- Pedro-Luis Sánchez
+- Antonio J. Sánchez López
+- Clara Sánchez-Pablo
+- María Concepción Sánchez-Prados
+- Javier Sánchez-Real
+- Jorge Sánchez-Redondo
+- Cristina Sancho-Sainz
+- Esther Sande
+- Arnoldo Santos
+- Agatha Schlüter
+- Sonia Segovia
+- Alex Serra-Llovich
+- Fernando Sevil-Puras
+- Marta Sevilla-Porras
+- Miguel A. Sicolo
+- Cristina Silván-Fuentes
+- Vitor M. S. Moraes
+- Vanessa S. Souza
+- Jordi Solé-Violán
+- José Manuel Soria
+- Jose V. Sorlí
+- Nayara S. Silva
+- Juan Carlos Souto
+- John J. Sprockel
+- José Javier Suárez-Rama
+- David A. Suárez-Zamora
+- Xiana Taboada-Fraga
+- Eduardo Tamayo
+- Alvaro Tamayo-Velasco
+- Juan Carlos Taracido-Fernández
+- Romero H. T. Vasconcelos
+- Carlos Tellería
+- Thássia M. T. Carratto
+- Jair Antonio Tenorio-Castaño
+- Alejandro Teper
+- Izabel M. T. Araujo
+- Juan Torres-Macho
+- Lilian Torres-Tobar
+- Ronald P. Torres-Gutiérrez
+- Jesús Troya
+- Miguel Urioste
+- Juan Valencia-Ramos
+- Agustín Valido
+- Juan Pablo Vargas-Gallo
+- Belén Varón
+- Tomas Vega
+- Santiago Velasco-Quirce
+- Valentina Vélez-Santamaría
+- Virginia Víctor
+- Julia Vidán-Estévez
+- Gabriela V. Silva
+- Miriam Vieitez-Santiago
+- Carlos Vilches
+- Lavinia Villalobos
+- Felipe Villar
+- Judit Villar-Garcia
+- Cristina Villaverde
+- Pablo Villoslada-Blanco
+- Ana Virseda-Berdices
+- Tatiana X. Costa
+- Zuleima Yáñez
+- Antonio Zapatero-Gaviria
+- Ruth Zarate
+- Sandra Zazo
+- Carlos Flores
+- José A. Riancho
+- Augusto Rojas-Martinez
+- Juan R. González
+date: '2024-02-01'
+publishDate: '2025-02-11T18:04:20.322441Z'
+publication_types:
+- article-journal
+publication: '*Communications Biology*'
+doi: 10.1038/s42003-024-05805-6
+links:
+- name: URL
+  url: http://dx.doi.org/10.1038/s42003-024-05805-6
+---
