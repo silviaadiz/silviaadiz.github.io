@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Silvia Diz</title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <description>Silvia Diz</description>
+    <title>Hugo Academic CV Theme</title>
+    <link>http://localhost:4321/</link>
+      <atom:link href="http://localhost:4321/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hugo Academic CV Theme</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_557f799f97e4e28d.png</url>
-      <title>Silvia Diz</title>
-      <link>http://localhost:1313/</link>
+      <url>http://localhost:4321/media/icon_hu_abf78c695304ca15.png</url>
+      <title>Hugo Academic CV Theme</title>
+      <link>http://localhost:4321/</link>
     </image>
     
     <item>
       <title></title>
-      <link>http://localhost:1313/contact/</link>
+      <link>http://localhost:4321/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>http://localhost:4321/contact/</guid>
       <description>&lt;!-- Contact Form with Formspree Integration --&gt;
 &lt;form action=&#34;https://formspree.io/f/xanqbepg&#34; method=&#34;POST&#34;&gt;
   &lt;h2&gt;Let&#39;s get in touch :)&lt;/h2&gt;
@@ -104,18 +104,18 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/projects/</link>
+      <link>http://localhost:4321/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>http://localhost:4321/projects/</guid>
       <description>&lt;p&gt;Under construction!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://localhost:1313/resume/</link>
+      <link>http://localhost:4321/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resume/</guid>
+      <guid>http://localhost:4321/resume/</guid>
       <description>&lt;style&gt;
   /* General Styling */
   body {
@@ -412,9 +412,9 @@
     
     <item>
       <title>About me</title>
-      <link>http://localhost:1313/aboutme/</link>
+      <link>http://localhost:4321/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/aboutme/</guid>
+      <guid>http://localhost:4321/aboutme/</guid>
       <description>&lt;span style=&#34;font-family: &#39;Roboto&#39;, sans-serif; font-size: 16px; text-align: justify;&#34;&gt;
 &lt;p&gt;I am a biologist who discovered a passion for programming and biostatistics and decided to turn it into a career. Back in 2020, while pursuing my MSc in Statistics, I joined the Genomic Medicine (Grupo de Medicina Xenómica) research group as an intern. Shortly after the pandemic lockdown ended, I became a research technician for the SCOURGE project, Spain’s largest national study on the genetic determinants of COVID-19, awarded to my principal investigator.&lt;/p&gt;
 &lt;p&gt;In 2021, I completed my master’s degree and turned my research into a PhD, that I successfully defended in June 2024, earning a &lt;em&gt;Cum Laude&lt;/em&gt; distinction. During that time I led studies for the SCOURGE consortium, involving a collaboration between over 30 research centers across Spain and Latin America and studying more than 15,000 patients. My work focused on two key areas: identifying genetic variants linked to COVID-19 severity and evaluating polygenic risk scores as biomarkers for complex diseases, exploring how they performed in diverse populations and clinical settings. My supervisors gave me the freedom to experiment, make mistakes, and learn, which shaped me into a confident and independent researcher. Boucing between biostatistics and bioinformatics, during those 4 years I spent a lot of time working with large-scale genetic and biomedical data, reading papers in search of cool methods and writing tons of R code.&lt;/p&gt;
