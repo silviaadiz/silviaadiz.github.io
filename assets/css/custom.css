@@ -9,3 +9,9 @@
   width: 210px !important;  /* Slightly larger wrapper */
   height: 210px !important;
 }
+.custom-favicon {
+    width: 32px;
+    height: 32px;
+    background: url("/media/icon.png") no-repeat center;
+    background-size: contain;
+}
