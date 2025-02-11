@@ -288,6 +288,7 @@
       "timeline",
       "timeline-item",
       "title",
+      "top-0",
       "top-16",
       "tracking-tight",
       "transition-transform",
@@ -296,7 +297,8 @@
       "w-64",
       "w-full",
       "xl:block",
-      "xl:space-x-8"
+      "xl:space-x-8",
+      "z-30"
     ],
     "ids": [
       "aboutme",
