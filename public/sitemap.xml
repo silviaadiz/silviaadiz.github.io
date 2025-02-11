@@ -12,9 +12,6 @@
     <loc>http://localhost:4321/projects/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/publications/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:4321/resume/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
