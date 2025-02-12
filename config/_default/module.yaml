@@ -4,10 +4,10 @@
 ## Docs: https://gohugo.io/hugo-modules/
 ############################
 
-
 imports:
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
+
 # Install any Hugo Blox within the `hugo-blox/blox/` folder
 mounts:
   - source: hugo-blox/blox/community
@@ -23,5 +23,3 @@ mounts:
     target: layouts
   - source: assets
     target: assets
-    includeFiles: '**.css'
-

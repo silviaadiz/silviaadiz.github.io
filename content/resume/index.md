@@ -152,16 +152,20 @@ share: false
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 40px;
+    font-size: 16px;
   }
 
   .language {
     margin: 0 20px;
     text-align: center;
+    font-size: 16px;
+
   }
 
   .language-name {
     font-size: 18px;
     color: #4a4e69;
+    
   }
 
   .language-level {
@@ -176,6 +180,7 @@ share: false
 
   .course-certification {
     margin-bottom: 20px;
+    font-size: 16px;
   }
 
   .course-certification-name {

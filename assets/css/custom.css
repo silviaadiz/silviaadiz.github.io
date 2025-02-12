@@ -15,3 +15,18 @@
     background: url("/media/icon.png") no-repeat center;
     background-size: contain;
 }
+.publication-item {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.publication-item h3 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.publication-item p {
+  color: #666;
+  font-size: 1rem;
+}

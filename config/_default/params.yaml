@@ -40,6 +40,7 @@ header:
     show_theme_chooser: false
     logo:
       text: ""
+    align: c
 
 # Site footer
 footer:

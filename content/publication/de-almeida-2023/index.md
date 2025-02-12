@@ -1,9 +1,8 @@
 ---
 title: A genome‐wide association study meta‐analysis in a European sample of stage
-  <scp>III</scp>/<scp>IV</scp> grade C periodontitis patients ≤35 years of age identifies
-  new risk loci
+  III/IV grade C periodontitis patients ≤35 years of age identifies new risk loci
 authors:
-- Silvia Diz De Almeida
+- Silvia Diz de Almeida
 - Gesa M. Richter
 - Alicia de Coo
 - Søren Jepsen

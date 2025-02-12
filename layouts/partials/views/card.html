@@ -1,0 +1,34 @@
+{{ $item := .item }}
+
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+{{ $anchor := $item.Params.image.focal_point | default "Center" }}
+
+<a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="mb-5 block text-[#4a4e69] no-underline">
+  <!-- Reset styles for the container to ensure no card-like effect -->
+  <div class="md:flex p-0 m-0 bg-transparent shadow-none border-0">
+    <!-- Remove any unwanted margins or padding here as well -->
+    <div class="md:flex-shrink-0 overflow-hidden">
+      {{ with $resource }}
+        {{ $image := .Fill (printf "655x655 %s" $anchor) }}
+        {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+      <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}">
+      {{end}}
+    </div>
+    <div class="ml-0 p-0 m-0"> <!-- Removed padding/margins here too -->
+      <div class="tracking-wide text-md text-black font-semibold mb-3">{{ $item.Title }}</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black text-justify">
+        {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
+      </p>
+      <p class="mt-2 text-[#4a4e69] text-sm text-justify">
+        {{- $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") -}}
+      </p>
+    </div>
+  </div>
+</a>
