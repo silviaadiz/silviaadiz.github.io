@@ -105,13 +105,14 @@ share: false
     margin-top: 40px;
   }
 
-  .skills-section h2 {
+.skills-section h2,
+.languages-section h2,
+.courses-certifications-section h2 {
     font-size: 24px;
     font-weight: bold;
     color: #2c3e50;
     margin-bottom: 20px;
-  }
-
+}
   .skill {
     margin-bottom: 15px;
   }

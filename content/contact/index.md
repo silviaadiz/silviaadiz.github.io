@@ -2,6 +2,7 @@
 title:  ''
 type: markdown
 reading_time: false
+share: false
 ---
 
 <!-- Contact Form with Formspree Integration -->
@@ -43,7 +44,7 @@ reading_time: false
   h2 {
     font-size: 24px;
     font-weight: bold;
-    color: #2c3e50;
+    color: #4a4e69;
     margin-bottom: 20px;
     text-align: center;
   }
