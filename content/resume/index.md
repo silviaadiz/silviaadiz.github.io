@@ -152,13 +152,13 @@ share: false
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 40px;
-    font-size: 16px;
+    font-size: 24px;
   }
 
   .language {
     margin: 0 20px;
     text-align: center;
-    font-size: 16px;
+    font-size: 24px;
 
   }
 
@@ -176,11 +176,13 @@ share: false
   /* Original Courses and Certifications Layout */
   .courses-certifications-section {
     margin-top: 40px;
+    font-size: 24px;
   }
 
   .course-certification {
     margin-bottom: 20px;
     font-size: 16px;
+    font-size: 24px;
   }
 
   .course-certification-name {
