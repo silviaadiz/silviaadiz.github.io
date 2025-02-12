@@ -383,7 +383,6 @@
       "search_toggle",
       "section-markdown",
       "section-resume-biography",
-      "selected-publications",
       "share-link-email",
       "share-link-facebook",
       "share-link-linkedin",
@@ -391,8 +390,6 @@
       "share-link-x",
       "show-button",
       "site-header",
-      "span-stylefont-family-roboto-sans-serif-font-size-24px-text-align-center-display-block",
-      "span-stylefont-family-roboto-sans-serif-font-size-24px-text-align-center-display-block-width-80-margin-0-auto",
       "top"
     ]
   }

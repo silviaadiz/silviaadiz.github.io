@@ -7,13 +7,6 @@ share: false
 ---
 
 <style>
-  /* General Styling */
-  body {
-    font-family: 'Roboto', roboto;
-    color: #4a4e69;
-    line-height: 1.6;
-    font-size: 16px;
-  }
 
   /* Timeline Styling */
   .timeline {
@@ -21,6 +14,8 @@ share: false
     max-width: 1200px; /* Increased from 900px to 1200px */
     margin: 0 auto;
     padding: 70px 0;
+    font-family: 'Roboto', roboto; 
+  color: #4a4e69; 
   }
 
   .timeline::after {
@@ -35,13 +30,13 @@ share: false
   }
 
   .timeline-item {
-    padding: 15px 30px;
+    padding: 20px 40px; /* Increased padding */
     position: relative;
     width: 50%;
     background: #ffffff;
     border-radius: 8px;
-    margin-bottom: 15px;
-    font-size: 16px;
+    margin-bottom: 20px; /* Increased margin */
+    font-size: 18px; /* Increased font size */
   }
 
   .timeline-item.left {
@@ -72,25 +67,25 @@ share: false
   }
 
   .timeline-item .date {
-    font-size: 12px;
+    font-size: 14px; /* Increased font size */
     color: #4a4e69;
     margin-bottom: 8px;
   }
 
   .timeline-item .title {
-    font-size: 16px;
+    font-size: 20px; /* Increased font size */
     font-weight: bold;
     color: #4a4e69;
     margin-bottom: 8px;
   }
 
   .timeline-item .summary {
-    font-size: 14px;
+    font-size: 16px; /* Increased font size */
     color: #4a4e69;
   }
 
   .timeline-item .responsibilities {
-    font-size: 14px;
+    font-size: 16px; /* Increased font size */
     color: #4a4e69;
     margin-top: 8px;
     margin-left: 15px;
@@ -103,28 +98,29 @@ share: false
   /* Skills Section Styling */
   .skills-section {
     margin-top: 40px;
+    font-family: 'Roboto', roboto; 
+  color: #4a4e69; 
   }
 
-.skills-section h2,
-.languages-section h2,
-.courses-certifications-section h2 {
+  .skills-section  {
     font-size: 24px;
     font-weight: bold;
     color: #2c3e50;
     margin-bottom: 20px;
-}
+  }
+
   .skill {
     margin-bottom: 15px;
   }
 
   .skill-name {
-    font-size: 16px;
+    font-size: 18px; /* Increased font size */
     color: #4a4e69;
     margin-bottom: 5px;
   }
 
   .skill-level {
-    font-size: 14px;
+    font-size: 16px; /* Increased font size */
     color: #4a4e69;
     margin-bottom: 5px;
   }
@@ -153,46 +149,43 @@ share: false
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 40px;
-    font-size: 24px;
+    font-family: 'Roboto', roboto; 
+  color: #4a4e69; 
   }
 
   .language {
     margin: 0 20px;
     text-align: center;
-    font-size: 24px;
-
   }
 
   .language-name {
-    font-size: 18px;
+    font-size: 18px; /* Increased font size */
     color: #4a4e69;
-    
   }
 
   .language-level {
-    font-size: 14px;
+    font-size: 16px; /* Increased font size */
     color: #4a4e69;
   }
 
   /* Original Courses and Certifications Layout */
   .courses-certifications-section {
     margin-top: 40px;
-    font-size: 24px;
+    font-family: 'Roboto', roboto; 
+  color: #4a4e69; 
   }
 
   .course-certification {
     margin-bottom: 20px;
-    font-size: 16px;
-    font-size: 24px;
   }
 
   .course-certification-name {
-    font-size: 16px;
+    font-size: 18px; /* Increased font size */
     color: #4a4e69;
   }
 
   .course-certification-details {
-    font-size: 14px;
+    font-size: 16px; /* Increased font size */
     color: #4a4e69;
   }
 </style>
@@ -315,5 +308,3 @@ share: false
     <div class="course-certification-details">Genentech - Coursera, 2024</div>
   </div>
 </div>
-
-
