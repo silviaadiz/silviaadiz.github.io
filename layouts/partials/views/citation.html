@@ -1,0 +1,38 @@
+{{ $item := .item }}
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  {{/* APA Style */}}
+  {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
+    <!-- Remove author information and citation. -->
+    <a href="{{ $item.RelPermalink }}" class="underline text-base title-text">{{ $item.Title }}</a> 
+    ({{- $item.Date.Format "2006" -}}).
+
+    {{ if $item.Params.publication_short }}
+      {{- $item.Params.publication_short | markdownify -}}.
+    {{ else if $item.Params.publication }}
+      {{- $item.Params.publication | markdownify -}}.
+    {{ end }}
+
+    <!-- Replace all other links with "Read More" in black, bold and increased size with color #4a4e69 -->
+    <a href="{{ $item.RelPermalink }}" class="text-[#4a4e69] text-lg font-bold mt-2 block read-more-link">Read More</a>
+
+  {{/* MLA Style */}}
+  {{ else }}
+
+    <!-- Remove author information and citation. -->
+    <a href="{{ $item.RelPermalink }}" class="underline text-base title-text">{{ $item.Title }}</a>.
+    {{ if $item.Params.publication_short }}
+      {{- $item.Params.publication_short | markdownify -}},
+    {{ else if $item.Params.publication }}
+      {{- $item.Params.publication | markdownify -}},
+    {{ end }}
+    {{- $item.Date.Format "2006" -}}.
+
+    <!-- Replace all other links with "Read More" in black, bold and increased size with color #4a4e69 -->
+    <a href="{{ $item.RelPermalink }}" class="text-[#4a4e69] text-lg font-bold mt-2 block read-more-link">Read More</a>
+
+  {{ end }}
+</div>
