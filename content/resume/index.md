@@ -193,7 +193,7 @@ share: false
 <!-- CV Download Section -->
 <div style="text-align: center; margin-top: 30px;">
   <a href="uploads/resume.pdf" download style="padding: 10px 20px; background-color: #4a4e69; color: white; text-decoration: none; border-radius: 5px;">
-    Download My CV
+    Download my CV
   </a>
 </div>
 
