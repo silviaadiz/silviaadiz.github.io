@@ -191,9 +191,10 @@ share: false
 </style>
 
 <!-- CV Download Section -->
-<a href="uploads/resume.pdf" download="CV_SilviaDiz.pdf" style="padding: 10px 20px; background-color: #4a4e69; color: white; text-decoration: none; border-radius: 5px;">
+<a href="/uploads/resume.pdf" download="CV_SilviaDiz.pdf" style="padding: 10px 20px; background-color: #4a4e69; color: white; text-decoration: none; border-radius: 5px;">
   Download my CV
 </a>
+
 
 <!-- Work Experience Timeline -->
 <h2>Work Experience</h2>
