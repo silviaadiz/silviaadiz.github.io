@@ -348,7 +348,7 @@
   }
 &lt;/style&gt;
 &lt;!-- CV Download Section --&gt;
-&lt;a href=&#34;uploads/resume.pdf&#34; download=&#34;resume.pdf&#34; style=&#34;padding: 10px 20px; background-color: #4a4e69; color: white; text-decoration: none; border-radius: 5px;&#34;&gt;
+&lt;a href=&#34;uploads/resume.pdf&#34; download=&#34;CV_SilviaDiz.pdf&#34; style=&#34;padding: 10px 20px; background-color: #4a4e69; color: white; text-decoration: none; border-radius: 5px;&#34;&gt;
   Download my CV
 &lt;/a&gt;
 &lt;!-- Work Experience Timeline --&gt;
