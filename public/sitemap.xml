@@ -18,6 +18,10 @@
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>http://localhost:4321/projects/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:4321/publication/de-almeida-2023/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -45,13 +49,13 @@
     <loc>http://localhost:4321/contact/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/projects/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:4321/resume/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:4321/aboutme/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:4321/projects/scourge/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:4321/tags/</loc>

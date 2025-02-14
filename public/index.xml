@@ -152,15 +152,6 @@
     
     <item>
       <title></title>
-      <link>http://localhost:4321/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/projects/</guid>
-      <description>&lt;p&gt;Under construction!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>http://localhost:4321/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/resume/</guid>
@@ -348,7 +339,7 @@
   }
 &lt;/style&gt;
 &lt;!-- CV Download Section --&gt;
-&lt;a href=&#34;http://localhost:4321/uploads/resume.pdf&#34; download=&#34;CV.pdf&#34; style=&#34;padding: 10px 20px; background-color: #4a4e69; color: white; text-decoration: none; border-radius: 5px;&#34;&gt;
+&lt;a href=&#34;http://localhost:4321/uploads/resume.pdf&#34; download=&#34;CV_SilviaDiz.pdf&#34; style=&#34;padding: 10px 20px; background-color: #4a4e69; color: white; text-decoration: none; border-radius: 5px;&#34;&gt;
   Download my CV
 &lt;/a&gt;
 &lt;!-- Work Experience Timeline --&gt;
@@ -477,6 +468,26 @@
 &lt;/ol&gt;
 &lt;p&gt;Thanks for reading! Feel free to reach out if you’d like to connect :)
 &lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SCOURGE project</title>
+      <link>http://localhost:4321/projects/scourge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/projects/scourge/</guid>
+      <description>&lt;span style=&#34;font-family: &#39;Roboto&#39;, sans-serif; font-size: 16px; text-align: justify;&#34;&gt;
+&lt;p&gt;The SCOURGE Consortium was established as a collaboration between Spain and some countries in Latin-America, aimed to find genetic variants associated with COVID-19 infection and severity. It was a major effort that went on for 4 years, with two main research lines and several sub-projects, that was also part of the COVID-19 Host Genetics Initiative (HGI Consortium). I joined this project as a research technician while finishing my MSc, and then developed a PhD thesis based on it.&lt;/p&gt;
+&lt;p&gt;The two main investigations focused on &lt;a href=&#34;http://localhost:4321/publication/cruz-2022/&#34;&gt;Spanish&lt;/a&gt; and &lt;a href=&#34;http://localhost:4321/publication/diz-de-almeida-2024/&#34;&gt;Latin-American&lt;/a&gt; patients, sharing first authorship with Dr. Cruz in both of them.&lt;/p&gt;
+&lt;h3 id=&#34;spanish-cohort-study&#34;&gt;Spanish cohort study&lt;/h3&gt;
+&lt;p&gt;In the first part of the research, we recruited over ~12.000 patients infected with the virus around 25 cities in Spain, obtaining their clinical information (comorbidities, COVID-19 outcomes, complications&amp;hellip;) and genetic information. Then, we conducted a genome-wide association study (GWAS), which sweeps the entire genome in search of variants associated with the tested phenotype (case/control study). One of the &lt;strong&gt;key findings&lt;/strong&gt; was a positive association between a variant in the gene codifying for the Aquaporin 3 (&lt;em&gt;AQP3&lt;/em&gt;) and hospitalization due to COVID, suggesting a potential therapeutic target for the disease. We also conducted sex-stratified analyses, which revealed an absence of genetic associations in females, likely driven by lower effect sizes. In fact, after meta-analyzing several studies, the widely replicated signal in chromosome 3 emerged in this group. Lastly, we built a genetic risk score using the main associated variants and fit a multinomial regression for a COVID-19 severity scale, obtaining a significant differentiation (in terms of genetic risk) between classes asymptomatic/mild, moderate+severe disease, and critical disease.&lt;/p&gt;
+&lt;h3 id=&#34;latin-american-cohort-study&#34;&gt;Latin-American cohort study&lt;/h3&gt;
+&lt;p&gt;We recruited more data in collaboration with Brazil, Colombia, Ecuador, Mexico and Paraguay. Then, we retrieved the patients recruited in Spain with a strong evidence of origin in Latin-America, resulting in over ~3.500 patients and conforming the largest Latin-American cohort to study the genetics of the disease. A meta-analysis was conducted with all data available from other studies. &lt;strong&gt;Two interesting associations&lt;/strong&gt; emerged, one within the gene &lt;em&gt;DDIAS&lt;/em&gt;, which was mostly absent in other population groups, and another one within the gene &lt;em&gt;BAZ2B&lt;/em&gt;. Following our previous research, we built a genetic score with the variants associated with COVID-19 severity and tested its performance in this novel cohort.&lt;/p&gt;
+&lt;h3 id=&#34;polygenic-scores&#34;&gt;Polygenic scores&lt;/h3&gt;
+&lt;p&gt;In the final phase of my PhD thesis, I focused on constructing more sophisticated polygenic risk scores (PRS) and evaluating their performance and clinical utility across two distinct cohorts. I developed a total of 130 unique polygenic risk scores for each cohort, leveraging various combinations of genetic data, and identified the top-performing models based on their improvement in pseudo-R2 values. Contrary to what&amp;rsquo;s tipically observed when applying polygenic risk scores to diverse population groups, the COVID-19 PRS showed similar performance in both cohorts, highlighting its potential generalizability.&lt;/p&gt;
+&lt;p&gt;Following this finding, I imagined a clinical scenario where an individual wanted to understand their position within the genetic risk distribution for COVID-19. To address this, I developed a single PRS and evaluated three distinct training models for risk prediction, using a new cohort of Spanish individuals as the test set. The three approaches included: (1) training the PRS regression model exclusively on the Spanish cohort, (2) training it on the entire combined cohort, and (3) a novel approach where the training cohort was selected based on the Euclidean distance between the principal genetic components (PCs) of the test set and those of the training set (best-fit model).&lt;/p&gt;
+&lt;p&gt;Lastly, I explored the behaviour of the genetic score in relation to key clinical variables, such as age, sex, and relevant comorbidities, and its association with other COVID-19-related complications. I also assessed the utility of incorporating the score into a prediction model for COVID-19 hospitalization, particularly when pre-existing comorbidities were included, by utilizing decision curve analysis (DCA) and net reclassification improvement (NRI) metrics.&lt;/p&gt;
+&lt;p&gt;This research was not published beyond my thesis dissertation, but &lt;a href=&#34;http://localhost:4321/uploads/Slides_PRS_SILVIADIZ_IDIS.pdf&#34;&gt;here&lt;/a&gt; you can download the slides for a presentation I gave at the Health Research Institute of Santiago de Compostela (IDIS) (research was not finished yet).&lt;/p&gt;
 </description>
     </item>
     
