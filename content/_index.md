@@ -30,7 +30,7 @@ sections:
         <div style="text-align: center; font-size: 16px;">
           <span style="font-family: 'Arial Black', sans-serif; font-size: 38px; color: #4a4e69;">Hi, I'm Silvia!</span>
           <br><br><span style="font-family: 'Roboto', sans-serif">
-          Recently graduated from my PhD, with a MSc in statistics and a BSc in Biology, I am currently looking for my next opportunity in the healthcare industry as a biostatistician or R programmer. Here you can have a look at my <a href="resume/" style="color: #4a4e69; text-decoration: underline;">CV</a>, <a href="publications/" style="color: #4a4e69; text-decoration: underline;">publication</a>, and <a href="projects/" style="color: #4a4e69; text-decoration: underline;">projects</a>, as well as reading my <a href="aboutme/" style="color: #4a4e69; text-decoration: underline;">extended bio</a>.
+          Recently graduated from my PhD, with a MSc in statistics and a BSc in Biology, I am currently looking for my next opportunity in the healthcare industry as a biostatistician or R programmer. Here you can have a look at my <a href="resume/" style="color: #4a4e69; text-decoration: underline;">CV</a>, <a href="publication/" style="color: #4a4e69; text-decoration: underline;">publications</a>, and <a href="projects/" style="color: #4a4e69; text-decoration: underline;">projects</a>, as well as reading my <a href="aboutme/" style="color: #4a4e69; text-decoration: underline;">extended bio</a>.
         </div>
 
   - block: markdown
