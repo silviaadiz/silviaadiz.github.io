@@ -2,63 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:4321/publication/</loc>
+    <loc>http://localhost:1313//silviaadiz.github.io/publication/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/publication_types/article-journal/</loc>
+    <loc>http://localhost:1313//silviaadiz.github.io/publication_types/article-journal/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/publication/diz-de-almeida-2024/</loc>
+    <loc>http://localhost:1313//silviaadiz.github.io/publication/diz-de-almeida-2024/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/publication_types/</loc>
+    <loc>http://localhost:1313//silviaadiz.github.io/publication_types/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/projects/</loc>
+    <loc>http://localhost:1313//silviaadiz.github.io/projects/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/publication/de-almeida-2023/</loc>
+    <loc>http://localhost:1313//silviaadiz.github.io/publication/de-almeida-2023/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/publication/hgi-2023/</loc>
+    <loc>http://localhost:1313//silviaadiz.github.io/publication/hgi-2023/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/publication/enjo-barreiro-2023/</loc>
+    <loc>http://localhost:1313//silviaadiz.github.io/publication/enjo-barreiro-2023/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/publication/alemany-navarro-2023/</loc>
+    <loc>http://localhost:1313//silviaadiz.github.io/publication/alemany-navarro-2023/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/</loc>
+    <loc>http://localhost:1313//silviaadiz.github.io/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/publication/cruz-2022/</loc>
+    <loc>http://localhost:1313//silviaadiz.github.io/publication/cruz-2022/</loc>
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/contact/</loc>
+    <loc>http://localhost:1313//silviaadiz.github.io/contact/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/resume/</loc>
+    <loc>http://localhost:1313//silviaadiz.github.io/resume/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/aboutme/</loc>
+    <loc>http://localhost:1313//silviaadiz.github.io/aboutme/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/projects/scourge/</loc>
+    <loc>http://localhost:1313//silviaadiz.github.io/projects/scourge/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:4321/tags/</loc>
+    <loc>http://localhost:1313//silviaadiz.github.io/tags/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
